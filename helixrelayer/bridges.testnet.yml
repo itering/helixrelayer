@@ -2,8 +2,8 @@
 registers:
   - bridge: arbitrum-sepolia->sepolia
     symbol: usdc
-    sourceTokenAddress: 0x8a87497488073307e1a17e8a12475a94afcb413f
-    targetTokenAddress: 0x0ac58df0cc3542bec4cda71b16d06c3ccc39f405
+    sourceTokenAddress: '0x8a87497488073307e1a17e8a12475a94afcb413f'
+    targetTokenAddress: '0x0ac58df0cc3542bec4cda71b16d06c3ccc39f405'
     targetChainId: 11155111
     baseFee: 1
     liquidityFeeRate: 0.1
@@ -11,8 +11,8 @@ registers:
 
   - bridge: sepolia->arbitrum-sepolia
     symbol: usdc
-    sourceTokenAddress: 0x0ac58df0cc3542bec4cda71b16d06c3ccc39f405
-    targetTokenAddress: 0x8a87497488073307e1a17e8a12475a94afcb413f
+    sourceTokenAddress: '0x0ac58df0cc3542bec4cda71b16d06c3ccc39f405'
+    targetTokenAddress: '0x8a87497488073307e1a17e8a12475a94afcb413f'
     targetChainId: 421614
     baseFee: 1
     liquidityFeeRate: 0.1
