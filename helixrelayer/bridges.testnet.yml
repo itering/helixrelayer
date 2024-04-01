@@ -2,6 +2,8 @@
 registers:
   - bridge: arbitrum-sepolia->sepolia
     symbol: usdc
+    type: lnv3
+    contract: '0x38627Cb033De66a1E07e73f5D0a7a7adFB6741fa'
     sourceTokenAddress: '0x8a87497488073307e1a17e8a12475a94afcb413f'
     targetTokenAddress: '0x0ac58df0cc3542bec4cda71b16d06c3ccc39f405'
     targetChainId: 11155111
@@ -11,6 +13,8 @@ registers:
 
   - bridge: sepolia->arbitrum-sepolia
     symbol: usdc
+    type: lnv3
+    contract: '0x38627Cb033De66a1E07e73f5D0a7a7adFB6741fa'
     sourceTokenAddress: '0x0ac58df0cc3542bec4cda71b16d06c3ccc39f405'
     targetTokenAddress: '0x8a87497488073307e1a17e8a12475a94afcb413f'
     targetChainId: 421614
