@@ -10,6 +10,7 @@ registers:
     baseFee: 1
     liquidityFeeRate: 0.1
     transferLimit: 100000
+    deposit: 1000
 
   - bridge: sepolia->arbitrum-sepolia
     symbol: usdc
@@ -21,12 +22,17 @@ registers:
     baseFee: 1
     liquidityFeeRate: 0.1
     transferLimit: 100000
+    deposit: 1000
+    safeWalletAddress: '0x086962e147c82C037872fa87523faa139D38ee61'
+    safeWalletUrl: 'https://safe-transaction-sepolia.safe.global/api'
 
 relayers:
   - bridge: arbitrum-sepolia->sepolia
     feeLimit: 100
     reorgThreshold: 10
     bridgeType: lnv3
+    safeWalletAddress: '0x086962e147c82C037872fa87523faa139D38ee61'
+    safeWalletUrl: 'https://safe-transaction-sepolia.safe.global/api'
     tokens:
       - symbol: usdc->usdc
         swapRate: 2000

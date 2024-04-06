@@ -9,10 +9,13 @@
     "targetChainId": 11155111,
     "baseFee": 1,
     "liquidityFeeRate": 0.1,
-    "transferLimit": 100000
+    "transferLimit": 100000,
+    "deposit": 1000,
+    "sourceChainRpc": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
+    "targetChainRpc": "https://ethereum-sepolia-rpc.publicnode.com"
   },
   "hash": {
-    "origin": "1arbitrum-sepolia->sepolia0x38627Cb033De66a1E07e73f5D0a7a7adFB6741fa0.10x8a87497488073307e1a17e8a12475a94afcb413fusdc111551110x0ac58df0cc3542bec4cda71b16d06c3ccc39f405100000lnv3",
-    "hash": "4d498e619567348fb6000c3d8c28c584fd055a3a031cc31e55b597fa1c715154"
+    "origin": "1arbitrum-sepolia->sepolia0x38627Cb033De66a1E07e73f5D0a7a7adFB6741fa10000.1https://arbitrum-sepolia.blockpi.network/v1/rpc/public0x8a87497488073307e1a17e8a12475a94afcb413fusdc11155111https://ethereum-sepolia-rpc.publicnode.com0x0ac58df0cc3542bec4cda71b16d06c3ccc39f405100000lnv3",
+    "hash": "d84c6eff0ff7d45f90e81a577c3654a274933e519d82a35f63ffad2a12b5a877"
   }
 }
