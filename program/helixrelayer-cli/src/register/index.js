@@ -1,6 +1,8 @@
 import * as arg from '../ecosys/arg.js'
 import * as safe from '../ecosys/safe.js'
 import * as lnv3 from './lnv3.js'
+import * as lnv2Default from './lnv2_default.js'
+import * as lnv2Opposite from './lnv2_opposite.js'
 
 export async function register(options) {
   const enableMainnet = arg.option('mainnet');
@@ -71,10 +73,15 @@ async function handle(options) {
     rpc: sourceChainRpc,
   };
   switch (register.type) {
-    case 'lnv3': {
+    case 'lnv3':
       await lnv3.register(registerOptions);
       break;
-    }
+    case 'lnv2-default':
+      await lnv2Default.register(registerOptions);
+      break;
+    case 'lnv2-opposite':
+      await lnv2Opposite.register(registerOptions);
+      break;
   }
   await ensureLock(ensureLockOptions, true);
   console.log(chalk.green(`the bridge ${_identifyRegisterName(register)} registered`));

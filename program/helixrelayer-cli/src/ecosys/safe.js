@@ -4,12 +4,12 @@ import SafeApiKit from "@safe-global/api-kit";
 
 
 export async function init(options) {
-  const {register, lifecycle} = options;
+  const {register, lifecycle, signer} = options;
   if (!(register.safeWalletUrl && register.safeWalletAddress)) {
     return;
   }
   const provider = new ethers.JsonRpcProvider(lifecycle.sourceChainRpc);
-  const wallet = new ethers.Wallet($.env['SIGNER'], provider);
+  const wallet = new ethers.Wallet(signer, provider);
   const ethAdapter = new EthersAdapter({
     ethers,
     signerOrProvider: wallet,

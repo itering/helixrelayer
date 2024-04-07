@@ -9,7 +9,7 @@ export async function register(options) {
   // const _targetTokenDecimal = await $`cast call --rpc-url=${targetChainRpc} ${register.targetTokenAddress} 'decimals()()'`;
 
   const sourceTokenDecimal = BigInt(_sourceTokenDecimal);
-  const safeCallOptions = {
+  const callOptions = {
     decimals: sourceTokenDecimal,
     baseFee: BigInt(register.baseFee) * (10n ** sourceTokenDecimal),
     transferLimit: BigInt(register.transferLimit) * (10n ** sourceTokenDecimal),
@@ -18,9 +18,11 @@ export async function register(options) {
 
   // call safe
   if (register.safeWalletAddress && register.safeWalletUrl) {
-    await registerWithSafe(options, safeCallOptions);
+    await registerWithSafe(options, callOptions);
     return;
   }
+
+  await registerWithCall(options, callOptions);
 
   // call contract
 
@@ -29,7 +31,35 @@ export async function register(options) {
 }
 
 
-async function registerWithSafe(options, safeCallOptions) {
+async function registerWithCall(options, callOptions) {
+  const {register, lifecycle, signer} = options;
+  const setFeeFlags = [
+    `--rpc-url=${lifecycle.sourceChainRpc}`,
+    `--private-key=${signer}`,
+    register.contract,
+    'registerLnProvider(uint256,address,address,uint112,uint16,uint112)()',
+    register.targetChainId,
+    register.sourceTokenAddress,
+    register.targetTokenAddress,
+    callOptions.baseFee,
+    callOptions.liquidityFeeRate,
+    callOptions.transferLimit,
+  ];
+
+  const txSetFee = await $`echo cast send ${setFeeFlags}`;
+  const depositFlags = [
+    `--rpc-url=${lifecycle.sourceChainRpc}`,
+    `--private-key=${signer}`,
+    register.contract,
+    'depositPenaltyReserve(address,uint256)()',
+    register.sourceTokenAddress,
+    BigInt(register.deposit) * (10n ** callOptions.decimals),
+  ];
+  const txDeposit = await $`echo cast send ${depositFlags}`;
+}
+
+
+async function registerWithSafe(options, callOptions) {
   const {register, lifecycle, safeSdk, safeService} = options;
   // generate transaction data
   const setFeeFlags = [
@@ -40,15 +70,15 @@ async function registerWithSafe(options, safeCallOptions) {
     register.targetChainId,
     register.sourceTokenAddress,
     register.targetTokenAddress,
-    safeCallOptions.baseFee,
-    safeCallOptions.liquidityFeeRate,
-    safeCallOptions.transferLimit,
+    callOptions.baseFee,
+    callOptions.liquidityFeeRate,
+    callOptions.transferLimit,
   ];
   const txSetFee = await $`cast calldata ${setFeeFlags}`;
   const depositFlags = [
     'depositPenaltyReserve(address,uint256)()',
     register.sourceTokenAddress,
-    BigInt(register.deposit) * (10n ** safeCallOptions.decimals),
+    BigInt(register.deposit) * (10n ** callOptions.decimals),
   ];
   const txDeposit = await $`cast calldata ${depositFlags}`;
 
