@@ -24,10 +24,6 @@ export async function register(options) {
 
   await registerWithCall(options, callOptions);
 
-  // call contract
-
-  // console.log(baseFee, transferLimit, liquidityFeeRate)
-  // console.log(register)
 }
 
 
@@ -35,7 +31,6 @@ async function registerWithCall(options, callOptions) {
   const {register, lifecycle, signer} = options;
   const setFeeFlags = [
     `--rpc-url=${lifecycle.sourceChainRpc}`,
-    `--private-key=${signer}`,
     register.contract,
     'registerLnProvider(uint256,address,address,uint112,uint16,uint112)()',
     register.targetChainId,
@@ -46,16 +41,21 @@ async function registerWithCall(options, callOptions) {
     callOptions.transferLimit,
   ];
 
-  const txSetFee = await $`echo cast send ${setFeeFlags}`;
+  await $`echo cast send ${setFeeFlags}`;
+  setFeeFlags.push(`--private-key=${signer}`);
+  const txSetFee = await $`echo cast send ${setFeeFlags}`.quiet();
+
+
   const depositFlags = [
     `--rpc-url=${lifecycle.sourceChainRpc}`,
-    `--private-key=${signer}`,
     register.contract,
     'depositPenaltyReserve(address,uint256)()',
     register.sourceTokenAddress,
     BigInt(register.deposit) * (10n ** callOptions.decimals),
   ];
-  const txDeposit = await $`echo cast send ${depositFlags}`;
+  await $`echo cast send ${depositFlags}`
+  depositFlags.push(`--private-key=${signer}`);
+  const txDeposit = await $`echo cast send ${depositFlags}`.quiet();
 }
 
 
@@ -63,9 +63,6 @@ async function registerWithSafe(options, callOptions) {
   const {register, lifecycle, safeSdk, safeService} = options;
   // generate transaction data
   const setFeeFlags = [
-    // `--rpc-url=${rpc}`,
-    // // `--private-key=${SIGNER}`,
-    // register.contract,
     'registerLnProvider(uint256,address,address,uint112,uint16,uint112)()',
     register.targetChainId,
     register.sourceTokenAddress,
