@@ -4,7 +4,40 @@ import * as lnv3 from './lnv3.js'
 import * as lnv2Default from './lnv2_default.js'
 import * as lnv2Opposite from './lnv2_opposite.js'
 
+
+export async function check() {
+  const environments = arg.programArguments();
+  if (!environments || !environments.length) {
+    console.log(chalk.red('missing network [mainnet|testnet]'));
+    process.exit(1);
+  }
+  const datadir = arg.datadir();
+  if (!datadir) {
+    console.log(chalk.red('missing datadir, please add --datadir=/path/to/data or -d=/path/to/data'));
+    process.exit(1);
+  }
+  if (!await fs.pathExists(datadir)) {
+    console.log(chalk.red(`the datadir [${datadir}] not exists`));
+    process.exit(1);
+  }
+  if (!$.env['SIGNER']) {
+    console.log(chalk.red('missing signer'));
+    process.exit(1);
+  }
+  const deps = ['cast', 'sha256sum', 'cut'];
+  for (const dep of deps) {
+    const depath = await which(dep);
+    if (!depath) {
+      console.log(chalk.red(`missing ${dep}`));
+      process.exit(1);
+    }
+  }
+}
+
+
 export async function register(options) {
+  await init(options);
+
   const enableMainnet = arg.option('mainnet');
   const enableTestnet = arg.option('testnet');
   if (!enableMainnet && !enableTestnet) {
@@ -19,6 +52,12 @@ export async function register(options) {
     await registerWithType(options, 'testnet');
   }
 }
+
+async function init(options) {
+  const defYmlRaw = await fs.readFile(arg.datapath('/definition.yml'), 'utf8');
+  options.definition = YAML.parse(defYmlRaw);
+}
+
 
 async function registerWithType(options, type) {
   const bridgeConfigRaw = await fs.readFile(arg.datapath(`/bridges.${type}.yml`), 'utf8');
