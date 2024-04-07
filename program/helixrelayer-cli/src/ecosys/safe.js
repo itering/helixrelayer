@@ -28,3 +28,20 @@ export async function init(options) {
   options.signer = wallet;
 }
 
+
+export async function propose(options = {safeSdk, safeService, transactions, safeAddress, senderAddress}) {
+  const {safeSdk, safeService, transactions, safeAddress, senderAddress} = options;
+  const safeTransaction = await safeSdk.createTransaction({
+    transactions
+  });
+  const safeTxHash = await safeSdk.getTransactionHash(safeTransaction);
+  const senderSignature = await safeSdk.signTransaction(safeTransaction);
+  const proposeTransactionProps = {
+    safeAddress,
+    safeTransactionData: safeTransaction.data,
+    safeTxHash,
+    senderAddress,
+    senderSignature: senderSignature.signatures.get(senderAddress.toLowerCase()).data,
+  };
+  return await safeService.proposeTransaction(proposeTransactionProps);
+}

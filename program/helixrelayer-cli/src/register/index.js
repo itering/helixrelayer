@@ -107,19 +107,15 @@ async function handle(options) {
     return;
   }
 
-  const registerOptions = {
-    ...options,
-    rpc: sourceChainRpc,
-  };
   switch (register.type) {
     case 'lnv3':
-      await lnv3.register(registerOptions);
+      await lnv3.register(options);
       break;
     case 'lnv2-default':
-      await lnv2Default.register(registerOptions);
+      await lnv2Default.register(options);
       break;
     case 'lnv2-opposite':
-      await lnv2Opposite.register(registerOptions);
+      await lnv2Opposite.register(options);
       break;
   }
   await ensureLock(ensureLockOptions, true);
