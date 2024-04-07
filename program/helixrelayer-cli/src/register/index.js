@@ -3,8 +3,23 @@ import * as safe from '../ecosys/safe.js'
 import * as lnv3 from './lnv3.js'
 
 export async function register(options) {
-  const {environment} = options;
-  const bridgeConfigRaw = await fs.readFile(arg.datapath(`/bridges.${environment}.yml`), 'utf8');
+  const enableMainnet = arg.option('mainnet');
+  const enableTestnet = arg.option('testnet');
+  if (!enableMainnet && !enableTestnet) {
+    console.log(chalk.red('missing product mode, please add --mainnet or --testnet'));
+    process.exit(1);
+  }
+
+  if (enableMainnet) {
+    await registerWithType(options, 'mainnet');
+  }
+  if (enableTestnet) {
+    await registerWithType(options, 'testnet');
+  }
+}
+
+async function registerWithType(options, type) {
+  const bridgeConfigRaw = await fs.readFile(arg.datapath(`/bridges.${type}.yml`), 'utf8');
   const bridgeConfig = YAML.parse(bridgeConfigRaw);
   const registers = bridgeConfig.registers;
 
@@ -33,8 +48,12 @@ async function handle(options) {
     console.log(chalk.red(`unidentified chain: ${targetChainName}`));
     process.exit(1);
   }
-  register.sourceChainRpc = sourceChainRpc;
-  register.targetChainRpc = targetChainRpc;
+  options.lifecycle = {
+    sourceChainName: sourceChainName,
+    targetChainName: targetChainName,
+    sourceChainRpc: sourceChainRpc,
+    targetChainRpc: targetChainRpc,
+  };
 
   await safe.init(options);
   const hash = await hashRegister(register);
@@ -47,14 +66,9 @@ async function handle(options) {
     return;
   }
 
-  const _sourceTokenDecimal = await $`cast call --rpc-url=${sourceChainRpc} ${register.sourceTokenAddress} 'decimals()()'`;
-  // const _targetTokenDecimal = await $`cast call --rpc-url=${targetChainRpc} ${register.targetTokenAddress} 'decimals()()'`;
-  const sourceTokenDecimal = BigInt(_sourceTokenDecimal);
-
   const registerOptions = {
     ...options,
     rpc: sourceChainRpc,
-    decimals: sourceTokenDecimal,
   };
   switch (register.type) {
     case 'lnv3': {

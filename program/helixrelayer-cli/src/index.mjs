@@ -24,16 +24,27 @@ async function check() {
     console.log(chalk.red('missing signer'));
     process.exit(1);
   }
+  const deps = ['cast', 'sha256sum', 'cut'];
+  for (const dep of deps) {
+    const depath = await which(dep);
+    if (!depath) {
+      console.log(chalk.red(`missing ${dep}`));
+      process.exit(1);
+    }
+  }
 }
 
 async function main() {
-  const lifecycle = await initialize.lifecycle();
-  const environments = arg.programArguments();
-  for (const env of environments) {
-    await reg.register({
-      ...lifecycle,
-      environment: env,
-    });
+  const options = await initialize.init();
+  const pargs = arg.programArguments();
+  const cmd = pargs[0];
+  switch (cmd) {
+    case 'register':
+      await reg.register(options);
+      break
+    default:
+      console.log(`unsupported command: ${cmd}`);
+      process.exit(1);
   }
 }
 

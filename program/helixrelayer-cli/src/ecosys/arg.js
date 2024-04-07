@@ -4,15 +4,17 @@ function _readArg(long, short = '') {
 }
 
 function _readArgs(long, short = '') {
-  let largs = argv[long] ?? [];
-  let sargs = argv[short] ? argv[short] : [];
-  if (typeof largs === 'string') {
-    largs = [largs];
+  let longArg = argv[long];
+  let shortArg = argv[short];
+  if (typeof longArg === 'string' || typeof longArg === 'boolean') {
+    longArg = [longArg];
   }
-  if (typeof sargs === 'string') {
-    sargs = [sargs];
+  if (typeof shortArg === 'string' || typeof shortArg === 'boolean') {
+    shortArg = [shortArg];
   }
-  return [...largs, ...sargs];
+  longArg = longArg ?? [];
+  shortArg = shortArg ?? [];
+  return [...longArg, ...shortArg];
 }
 
 export function programArguments() {
