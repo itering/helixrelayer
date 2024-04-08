@@ -7,7 +7,6 @@ export async function register(options) {
   const _sourceTokenDecimal = await $`cast call --rpc-url=${lifecycle.sourceChainRpc} ${register.sourceTokenAddress} 'decimals()()'`;
   const sourceTokenDecimal = BigInt(_sourceTokenDecimal);
 
-
   const approval = BigInt(register.approve) * (10n ** sourceTokenDecimal);
   const baseFee = BigInt(register.baseFee) * (10n ** sourceTokenDecimal);
   const liquidityFeeRate = Number(register.liquidityFeeRate) * (10 ** 3);
@@ -37,7 +36,7 @@ export async function register(options) {
   };
 
   // call safe
-  if (register.safeWalletAddress && register.safeWalletUrl) {
+  if (register.safeWalletAddress && register.sourceSafeWalletUrl) {
     await registerWithSafe(options, callOptions);
     return;
   }
@@ -61,21 +60,23 @@ async function registerWithCall(options, callOptions) {
 
 
   await $`echo cast send ${setFeeFlags}`;
-  setFeeFlags.push(...sendFlags);
-  setFeeFlags.push(register.contract);
+  setFeeFlags.unshift(...sendFlags);
+  setFeeFlags.unshift(register.contract);
   const txsetFee = await $`echo cast send ${setFeeFlags}`.quiet();
 }
 
 async function registerWithSafe(options, callOptions) {
-  const {register, lifecycle, safeSdk, safeService} = options;
+  const {register, lifecycle, sourceSafeSdk, sourceSafeService, sourceSigner} = options;
   const {approvalFlags, setFeeFlags} = callOptions;
 
   const txApproval = await $`cast calldata ${approvalFlags}`;
   const txSetFee = await $`cast calldata ${setFeeFlags}`;
 
   const p0 = await safe.propose({
-    safeSdk,
-    safeService,
+    safeSdk: sourceSafeSdk,
+    safeService: sourceSafeService,
+    safeAddress: register.safeWalletAddress,
+    senderAddress: sourceSigner.address,
     transactions: [
       {
         to: register.sourceTokenAddress,
@@ -88,8 +89,6 @@ async function registerWithSafe(options, callOptions) {
         data: txSetFee.stdout.trim(),
       },
     ],
-    safeAddress: register.safeWalletAddress,
-    senderAddress: options.signer.address,
   });
   console.log(
     chalk.green('proposed register transaction to'),

@@ -33,7 +33,7 @@ export async function register(options) {
   };
 
   // call safe
-  if (register.safeWalletAddress && register.safeWalletUrl) {
+  if (register.safeWalletAddress && register.sourceSafeWalletUrl) {
     await registerWithSafe(options, callOptions);
     return;
   }
@@ -63,15 +63,17 @@ async function registerWithCall(options, callOptions) {
 
 
 async function registerWithSafe(options, callOptions) {
-  const {register, lifecycle, safeSdk, safeService} = options;
+  const {register, lifecycle, sourceSafeSdk, sourceSafeService, sourceSigner} = options;
   const {depositFlags, setFeeFlags} = callOptions;
 
   const txSetFee = await $`cast calldata ${setFeeFlags}`;
   const txDeposit = await $`cast calldata ${depositFlags}`;
 
   const p0 = await safe.propose({
-    safeSdk,
-    safeService,
+    safeSdk: sourceSafeSdk,
+    safeService: sourceSafeService,
+    safeAddress: register.safeWalletAddress,
+    senderAddress: sourceSigner.address,
     transactions: [
       {
         to: register.contract,
@@ -84,8 +86,6 @@ async function registerWithSafe(options, callOptions) {
         data: txDeposit.stdout.trim(),
       },
     ],
-    safeAddress: register.safeWalletAddress,
-    senderAddress: options.signer.address,
   });
   console.log(
     chalk.green('proposed register transaction to'),

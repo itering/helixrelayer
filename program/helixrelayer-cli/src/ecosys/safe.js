@@ -5,10 +5,38 @@ import SafeApiKit from "@safe-global/api-kit";
 
 export async function init(options) {
   const {register, lifecycle, signer} = options;
-  if (!(register.safeWalletUrl && register.safeWalletAddress)) {
+  if (!register.safeWalletAddress) {
     return;
   }
-  const provider = new ethers.JsonRpcProvider(lifecycle.sourceChainRpc);
+  if (register.sourceSafeWalletUrl) {
+    const safe = await initSafe({
+      register,
+      chainRpc: lifecycle.sourceChainRpc,
+      signer,
+    });
+    options.sourceSafeSdk = safe.safeSdk;
+    options.sourceSafeService = safe.safeService;
+    options.sourceProvider = safe.provider;
+    options.sourceNetwork = safe.network;
+    options.sourceSigner = safe.wallet;
+  }
+  if (register.targetSafeWalletUrl) {
+    const safe = await initSafe({
+      register,
+      chainRpc: lifecycle.targetChainRpc,
+      signer,
+    });
+    options.targetSafeSdk = safe.safeSdk;
+    options.targetSafeService = safe.safeService;
+    options.targetProvider = safe.provider;
+    options.targetNetwork = safe.network;
+    options.targetSigner = safe.wallet;
+  }
+}
+
+async function initSafe(options) {
+  const {register, chainRpc, signer} = options;
+  const provider = new ethers.JsonRpcProvider(chainRpc);
   const wallet = new ethers.Wallet(signer, provider);
   const ethAdapter = new EthersAdapter({
     ethers,
@@ -21,11 +49,14 @@ export async function init(options) {
     chainId: network.chainId,
     // txServiceUrl: register.safeWalletUrl,
     txServiceUrl: 'https://httpbin.org/anything',
-  })
-
-  options.safeSdk = safeSdk;
-  options.safeService = safeService;
-  options.signer = wallet;
+  });
+  return {
+    safeSdk,
+    safeService,
+    provider,
+    network,
+    wallet,
+  };
 }
 
 
