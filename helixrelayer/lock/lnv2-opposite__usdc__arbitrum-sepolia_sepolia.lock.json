@@ -10,10 +10,10 @@
     "baseFee": 1,
     "liquidityFeeRate": 0.1,
     "deposit": 1000,
-    "approve": 1000000000000
+    "approve": 10000000000000
   },
   "hash": {
-    "origin": "10000000000001arbitrum-sepolia->sepolia0xbA96d83E2A04c4E50F2D6D7eCA03D70bA2426e5f10000.10x8a87497488073307e1a17e8a12475a94afcb413fusdc111551110x0ac58df0cc3542bec4cda71b16d06c3ccc39f405lnv2-opposite",
-    "hash": "d4050ebdcb01c1cb2157b32a7577cad563177ef670be67775bc5b278b8d0d328"
+    "origin": "100000000000001arbitrum-sepolia->sepolia0xbA96d83E2A04c4E50F2D6D7eCA03D70bA2426e5f10000.10x8a87497488073307e1a17e8a12475a94afcb413fusdc111551110x0ac58df0cc3542bec4cda71b16d06c3ccc39f405lnv2-opposite",
+    "hash": "fb37ad5c07f9587c651daf2b74dbc467f330245cbadfb06cf8f8f4352ab2f207"
   }
 }

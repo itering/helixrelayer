@@ -9,8 +9,9 @@ registers:
     targetChainId: 11155111
     baseFee: 1
     liquidityFeeRate: 0.1
-    transferLimit: 100000
+    transferLimit: 1000
     deposit: 1000
+    approve: 10000000000000
 
   - bridge: sepolia->arbitrum-sepolia
     symbol: usdc
@@ -23,8 +24,9 @@ registers:
     liquidityFeeRate: 0.1
     transferLimit: 100000
     deposit: 1000
-    safeWalletAddress: '0x086962e147c82C037872fa87523faa139D38ee61'
-    sourceSafeWalletUrl: 'https://safe-transaction-sepolia.safe.global/api'
+    approve: 10000000000000
+#    safeWalletAddress: '0x086962e147c82C037872fa87523faa139D38ee61'
+#    sourceSafeWalletUrl: 'https://safe-transaction-sepolia.safe.global/api'
 
   - bridge: arbitrum-sepolia->sepolia
     symbol: usdc
@@ -36,7 +38,7 @@ registers:
     baseFee: 1
     liquidityFeeRate: 0.1
     deposit: 1000
-    approve: 1000000000000
+    approve: 10000000000000
 
   - bridge: sepolia->arbitrum-sepolia
     symbol: usdc
@@ -47,11 +49,10 @@ registers:
     targetChainId: 421614
     baseFee: 1
     liquidityFeeRate: 0.1
-    transferLimit: 100000
     deposit: 1000
-    approve: 1000000000000
-    safeWalletAddress: '0x086962e147c82C037872fa87523faa139D38ee61'
-    sourceSafeWalletUrl: 'https://safe-transaction-sepolia.safe.global/api'
+    approve: 10000000000000
+#    safeWalletAddress: '0x086962e147c82C037872fa87523faa139D38ee61'
+#    sourceSafeWalletUrl: 'https://safe-transaction-sepolia.safe.global/api'
 #    targetSafeWalletUrl: 'https://safe-transaction-arbitrum-sepolia.safe.global/api'
 
 
