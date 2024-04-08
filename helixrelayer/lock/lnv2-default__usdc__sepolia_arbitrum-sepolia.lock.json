@@ -6,14 +6,13 @@
     "contract": "0x8429D7Dfd91D6F970ba89fFC005e67D15f1E4739",
     "sourceTokenAddress": "0x0ac58df0cc3542bec4cda71b16d06c3ccc39f405",
     "targetTokenAddress": "0x8a87497488073307e1a17e8a12475a94afcb413f",
-    "targetChainId": 421614,
     "baseFee": 10,
     "liquidityFeeRate": 0.1,
     "deposit": 1000,
     "approve": 10000000000000
   },
   "hash": {
-    "origin": "1000000000000010sepolia->arbitrum-sepolia0x8429D7Dfd91D6F970ba89fFC005e67D15f1E473910000.10x0ac58df0cc3542bec4cda71b16d06c3ccc39f405usdc4216140x8a87497488073307e1a17e8a12475a94afcb413flnv2-default",
-    "hash": "f63057ddf336a6327358a06349cad6981b3ad4d7cf198f913faa24169b6bc995"
+    "origin": "1000000000000010sepolia->arbitrum-sepolia0x8429D7Dfd91D6F970ba89fFC005e67D15f1E473910000.10x0ac58df0cc3542bec4cda71b16d06c3ccc39f405usdc0x8a87497488073307e1a17e8a12475a94afcb413flnv2-default",
+    "hash": "fa7f5d3bf778cb6c7f3d7f5109fbfcd287b6e98d8d38e55501b790b1b99d8ded"
   }
 }
