@@ -36,7 +36,7 @@ registers:
     baseFee: 3720
     liquidityFeeRate: 0.1
     transferLimit: 200000
-    deposit: 200000
+    deposit: 300000
     approve: 10000000000000
     safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
     sourceSafeWalletUrl: 'https://dsafe.dcdao.box/txs/api'
