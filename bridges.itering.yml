@@ -52,7 +52,7 @@ registers:
     deposit: 30
     approve: 10000000000000
     safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-    ourceSafeWalletUrl: 'https://safe-transaction-mainnet.safe.global/api'
+    sourceSafeWalletUrl: 'https://safe-transaction-mainnet.safe.global/api'
     targetSafeWalletUrl: 'https://dsafe.dcdao.box/txs/api'
 
 
