@@ -16,7 +16,7 @@ jobs:
 
       - name: Regiser
         env:
-          HELIXBRIDGE_CLI_VERSION: sha-fa06020
+          HELIXBRIDGE_CLI_VERSION: sha-8fdf837
         run: |
           docker run -i --rm \
           --name helixbridge \
