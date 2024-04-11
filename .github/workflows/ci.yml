@@ -21,7 +21,7 @@ jobs:
           docker run -i --rm \
           --name helixbridge \
           -v $PWD:/relayer \
-          -e SIGNER=${{ secrets.SIGNER }}
+          -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
             register --datadir=/relayer --group=itering
 
