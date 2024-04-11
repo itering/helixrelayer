@@ -33,7 +33,7 @@ jobs:
           -v $PWD:/relayer \
           -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
-            register --datadir=/relayer --group=itering
+            generate-configure --datadir=/relayer --group=itering
 
       - name: Commit files
         run: |
