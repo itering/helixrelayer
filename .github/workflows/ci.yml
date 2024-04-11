@@ -18,7 +18,7 @@ jobs:
         env:
           HELIXBRIDGE_CLI_VERSION: v0.0.1
         run: |
-          docker run -it --rm \
+          docker run -i --rm \
           --name=helixbridge \
           -v=$PWD:/relayer \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
