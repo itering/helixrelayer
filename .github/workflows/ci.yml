@@ -9,14 +9,17 @@ on:
 
 jobs:
   register:
-    name: register helix relayer
+    name: Register helix relayer
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: regiser
+      - name: Regiser
         env:
           HELIXBRIDGE_CLI_VERSION: v0.0.1
         run: |
-          alias helixbridge='docker run -it --rm --name helixbridge -v $PWD:/relayer ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION}'
-          helixbridge register --datadir=/relayer --group=itering
+          docker run -it --rm \
+          --name=helixbridge \
+          -v=$PWD:/relayer \
+          ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
+            register --datadir=/relayer --group=itering
