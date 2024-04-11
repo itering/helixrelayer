@@ -7,16 +7,26 @@ on:
   pull_request:
     branches: [main]
 
+env:
+  HELIXBRIDGE_CLI_VERSION: v0.0.2
+
 jobs:
-  register:
-    name: Register helix relayer
+  deploy:
+    name: Register and generate configure
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: Regiser
-        env:
-          HELIXBRIDGE_CLI_VERSION: sha-8fdf837
+        run: |
+          docker run -i --rm \
+          --name helixbridge \
+          -v $PWD:/relayer \
+          -e SIGNER=${{ secrets.SIGNER }} \
+          ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
+            register --datadir=/relayer --group=itering
+
+      - name: Generate configure
         run: |
           docker run -i --rm \
           --name helixbridge \
@@ -38,4 +48,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-
