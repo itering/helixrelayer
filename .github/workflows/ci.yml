@@ -1,0 +1,22 @@
+name: Deploy helix relayer
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+jobs:
+  register:
+    name: register helix relayer
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: regiser
+        env:
+          HELIXBRIDGE_CLI_VERSION: v0.0.1
+        run: |
+          alias helixbridge='docker run -it --rm --name helixbridge -v $PWD:/relayer ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION}'
+          helixbridge register --datadir=/relayer --group=itering
