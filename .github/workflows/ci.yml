@@ -22,7 +22,7 @@ jobs:
           -v $PWD:/relayer \
           -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
-            register --datadir=/relayer --group=itering
+            register --verbose --datadir=/relayer --group=itering
 
       - name: Generate configure
         run: |
@@ -31,7 +31,7 @@ jobs:
           -v $PWD:/relayer \
           -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
-            generate-configure --datadir=/relayer --group=itering
+            generate-configure --verbose --datadir=/relayer --group=itering
 
       - name: Commit files
         run: |
