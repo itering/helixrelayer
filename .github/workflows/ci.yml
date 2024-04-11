@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  HELIXBRIDGE_CLI_VERSION: v0.0.2
+  HELIXBRIDGE_CLI_VERSION: sha-6fb8a42
 
 jobs:
   deploy:
