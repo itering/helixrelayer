@@ -4,8 +4,7 @@
   "rpcnodes": [
     {
       "name": "arbitrum",
-      "rpc": "https://arb1.arbitrum.io/rpc",
-      "fixedGasPrice": 10
+      "rpc": "https://arb1.arbitrum.io/rpc"
     },
     {
       "name": "polygon",
