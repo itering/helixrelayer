@@ -37,7 +37,7 @@ registers:
     baseFee: 3720
     liquidityFeeRate: 0.1
     transferLimit: 200000
-    deposit: 300000
+    deposit: 8000000
     approve: 10000000000000
     safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
     sourceSafeWalletUrl: 'https://dsafe.dcdao.box/txs/api'
@@ -52,7 +52,7 @@ registers:
     baseFee: 200
     liquidityFeeRate: 0.2
     transferLimit: 200000
-    deposit: 300000
+    deposit: 8000000
     approve: 10000000000000
     safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
     sourceSafeWalletUrl: 'https://safe-transaction-mainnet.safe.global/api'
@@ -71,7 +71,7 @@ configure:
   bridges:
     - direction: arbitrum->polygon
       feeLimit: 100
-      reorgThreshold: 10
+      reorgThreshold: 200
       bridgeType: lnv3
       safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
       safeWalletUrl: 'https://safe-transaction-polygon.safe.global/api'
@@ -84,7 +84,7 @@ configure:
 
     - direction: polygon->arbitrum
       feeLimit: 150
-      reorgThreshold: 20
+      reorgThreshold: 200
       bridgeType: lnv3
       safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
       safeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
@@ -95,7 +95,7 @@ configure:
           swapRate: 2300
           withdrawLiquidityCountThreshold: 10
 
-    - direction: darwinia->ethereum
+    - direction: darwinia-dvm->ethereum
       feeLimit: 100
       reorgThreshold: 10
       bridgeType: lnv2-opposite
@@ -106,7 +106,6 @@ configure:
       tokens:
         - symbol: ring->ring
           swapRate: 1
-          withdrawLiquidityCountThreshold: 10
 
     - direction: ethereum->darwinia
       feeLimit: 100
@@ -119,4 +118,3 @@ configure:
       tokens:
         - symbol: ring->ring
           swapRate: 1
-          withdrawLiquidityCountThreshold: 10
