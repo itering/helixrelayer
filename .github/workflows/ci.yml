@@ -1,0 +1,49 @@
+name: Deploy helix relayer
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+env:
+  HELIXBRIDGE_CLI_VERSION: v0.0.2
+
+jobs:
+  deploy:
+    name: Register and generate configure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regiser
+        run: |
+          docker run -i --rm \
+          --name helixbridge \
+          -v $PWD:/relayer \
+          -e SIGNER=${{ secrets.SIGNER }} \
+          ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
+            register --datadir=/relayer --group=itering
+
+      - name: Generate configure
+        run: |
+          docker run -i --rm \
+          --name helixbridge \
+          -v $PWD:/relayer \
+          -e SIGNER=${{ secrets.SIGNER }} \
+          ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
+            generate-configure --datadir=/relayer --group=itering
+
+      - name: Commit files
+        run: |
+          MSG="Helixrelayer register"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "${MSG:-Auto update}" || true
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
