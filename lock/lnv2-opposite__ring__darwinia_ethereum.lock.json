@@ -1,0 +1,22 @@
+{
+  "register": {
+    "bridge": "darwinia->ethereum",
+    "symbol": "ring",
+    "type": "lnv2-opposite",
+    "contract": "0x48d769d5C7ff75703cDd1543A1a2ed9bC9044A23",
+    "sourceTokenAddress": "0x0000000000000000000000000000000000000000",
+    "targetTokenAddress": "0x9469d013805bffb7d3debe5e7839237e535ec483",
+    "baseFee": 3800,
+    "liquidityFeeRate": 0.1,
+    "transferLimit": 200000,
+    "deposit": 100000,
+    "approve": 10000000000000,
+    "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+    "sourceSafeWalletUrl": "https://dsafe.dcdao.box/txs/api",
+    "targetSafeWalletUrl": "https://safe-transaction-mainnet.safe.global/api"
+  },
+  "hash": {
+    "origin": "100000000000003800darwinia->ethereum0x48d769d5C7ff75703cDd1543A1a2ed9bC9044A231000000.10x000000000Bb6a011dB294ce3F3423f00EAc4959ehttps://dsafe.dcdao.box/txs/api0x0000000000000000000000000000000000000000ringhttps://safe-transaction-mainnet.safe.global/api0x9469d013805bffb7d3debe5e7839237e535ec483200000lnv2-opposite",
+    "hash": "53edce90d16efa526c057e90f1c88a9251a6b807ac874bc328b430cc22c413fe"
+  }
+}
