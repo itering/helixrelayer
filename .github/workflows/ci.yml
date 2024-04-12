@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  HELIXBRIDGE_CLI_VERSION: sha-c8d344e
+  HELIXBRIDGE_CLI_VERSION: sha-f56b189
 
 jobs:
   deploy:
@@ -20,6 +20,7 @@ jobs:
           docker run -i --rm \
           --name helixbridge \
           -v $PWD:/relayer \
+          -e FORCE_COLOR=1 \
           -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
             register --verbose --datadir=/relayer --group=itering
@@ -29,6 +30,7 @@ jobs:
           docker run -i --rm \
           --name helixbridge \
           -v $PWD:/relayer \
+          -e FORCE_COLOR=1 \
           -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
             generate-configure --verbose --datadir=/relayer --group=itering
