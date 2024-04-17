@@ -28,7 +28,7 @@ registers:
     safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
     sourceSafeWalletUrl: 'https://safe-transaction-polygon.safe.global/api'
 
-  - bridge: darwinia->ethereum
+  - bridge: darwinia-dvm->ethereum
     symbol: ring
     type: lnv2-opposite
     contract: '0x48d769d5C7ff75703cDd1543A1a2ed9bC9044A23'
@@ -43,7 +43,7 @@ registers:
     sourceSafeWalletUrl: 'https://dsafe.dcdao.box/txs/api'
     targetSafeWalletUrl: 'https://safe-transaction-mainnet.safe.global/api'
 
-  - bridge: ethereum->darwinia
+  - bridge: ethereum->darwinia-dvm
     symbol: ring
     type: lnv2-default
     contract: '0x94C614DAeFDbf151E1BB53d6A201ae5fF56A9337'
