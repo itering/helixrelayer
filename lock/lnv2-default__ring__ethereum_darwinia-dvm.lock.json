@@ -10,13 +10,13 @@
     "liquidityFeeRate": 0.2,
     "transferLimit": 250000,
     "deposit": 2000000,
-    "approve": 10000000000000,
+    "approve": 100000000000000,
     "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
     "sourceSafeWalletUrl": "https://safe-transaction-mainnet.safe.global/api",
     "targetSafeWalletUrl": "https://dsafe.dcdao.box/txs/api"
   },
   "hash": {
-    "origin": "10000000000000300ethereum->darwinia-dvm0x94C614DAeFDbf151E1BB53d6A201ae5fF56A933720000000.20x000000000Bb6a011dB294ce3F3423f00EAc4959ehttps://safe-transaction-mainnet.safe.global/api0x9469d013805bffb7d3debe5e7839237e535ec483ringhttps://dsafe.dcdao.box/txs/api0x0000000000000000000000000000000000000000250000lnv2-default",
-    "hash": "ddede9886637dbdf08ad297b2320177a229ae32eb9e5027dd8762ef8d98fc10a"
+    "origin": "100000000000000300ethereum->darwinia-dvm0x94C614DAeFDbf151E1BB53d6A201ae5fF56A933720000000.20x000000000Bb6a011dB294ce3F3423f00EAc4959ehttps://safe-transaction-mainnet.safe.global/api0x9469d013805bffb7d3debe5e7839237e535ec483ringhttps://dsafe.dcdao.box/txs/api0x0000000000000000000000000000000000000000250000lnv2-default",
+    "hash": "9b636e5e830607eb328d3b5c6df5757fc7e05aefc1c176a906d4ae4d1c0f2652"
   }
 }
