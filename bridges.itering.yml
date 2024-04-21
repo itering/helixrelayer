@@ -38,7 +38,7 @@ registers:
     liquidityFeeRate: 0.1
     transferLimit: 250000
     deposit: 2000000
-    approve: 10000000000000
+    approve: 100000000000000
     safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
     sourceSafeWalletUrl: 'https://dsafe.dcdao.box/txs/api'
     targetSafeWalletUrl: 'https://safe-transaction-mainnet.safe.global/api'
@@ -53,7 +53,7 @@ registers:
     liquidityFeeRate: 0.2
     transferLimit: 250000
     deposit: 2000000
-    approve: 10000000000000
+    approve: 100000000000000
     safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
     sourceSafeWalletUrl: 'https://safe-transaction-mainnet.safe.global/api'
     targetSafeWalletUrl: 'https://dsafe.dcdao.box/txs/api'
