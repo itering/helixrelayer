@@ -6,17 +6,17 @@
     "contract": "0x94C614DAeFDbf151E1BB53d6A201ae5fF56A9337",
     "sourceTokenAddress": "0x9469d013805bffb7d3debe5e7839237e535ec483",
     "targetTokenAddress": "0x9e523234d36973f9e38642886197d023c88e307e",
-    "baseFee": 400,
+    "baseFee": 500,
     "liquidityFeeRate": 0.1,
-    "transferLimit": 250000,
-    "deposit": 111,
+    "transferLimit": 300000,
+    "deposit": 300000,
     "approve": 10000000000000,
     "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
     "sourceSafeWalletUrl": "https://safe-transaction-mainnet.safe.global/api",
     "targetSafeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api"
   },
   "hash": {
-    "origin": "10000000000000400ethereum->arbitrum0x94C614DAeFDbf151E1BB53d6A201ae5fF56A93371110.10x000000000Bb6a011dB294ce3F3423f00EAc4959ehttps://safe-transaction-mainnet.safe.global/api0x9469d013805bffb7d3debe5e7839237e535ec483ringhttps://safe-transaction-arbitrum.safe.global/api0x9e523234d36973f9e38642886197d023c88e307e250000lnv2-default",
-    "hash": "bd5434158c51a0514f3f158640627cbd0c1b593c5917220be75180eda18fe21e"
+    "origin": "10000000000000500ethereum->arbitrum0x94C614DAeFDbf151E1BB53d6A201ae5fF56A93373000000.10x000000000Bb6a011dB294ce3F3423f00EAc4959ehttps://safe-transaction-mainnet.safe.global/api0x9469d013805bffb7d3debe5e7839237e535ec483ringhttps://safe-transaction-arbitrum.safe.global/api0x9e523234d36973f9e38642886197d023c88e307e300000lnv2-default",
+    "hash": "f110737431b50ac2def7e29934afe1850b47eb50b514a95e6f5dd3f8bb35987a"
   }
 }
