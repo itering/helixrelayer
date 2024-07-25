@@ -20,11 +20,37 @@ configure:
   indexer: https://apollo.helixbridge.app/graphql
   relayGasLimit: 600000
   rpcnodes:
+
     - name: arbitrum
       rpc: https://arb1.arbitrum.io/rpc
-#      fixedGasPrice: 10
+      lendMarket:
+        protocol: aave
+        healthFactorLimit: 3
+        collaterals:
+          - symbol: eth
+            autosupplyAmount: 0.2
+          - symbol: usdc
+            autosupplyAmount: 400
+        tokens:
+          - symbol: usdt
+            minRepay: 100
+            minReserved: 0
+
     - name: polygon
       rpc: https://polygon-bor-rpc.publicnode.com
+      lendMarket:
+        protocol: aave
+        healthFactorLimit: 3
+        collaterals:
+          - symbol: matic
+            autosupplyAmount: 0.2
+          - symbol: usdc
+            autosupplyAmount: 400
+        tokens:
+          - symbol: usdt
+            minRepay: 100
+            minReserved: 0
+
   bridges:
     ## arbitrum<>polygon
     - include: arbitrum-polygon.yml

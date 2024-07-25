@@ -10,6 +10,10 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
+    ## ====
+    - symbol: usdc->usdc
+      swapRate: 2300
+      withdrawLiquidityCountThreshold: 10
 
 - direction: polygon->arbitrum
   feeLimit: 150
@@ -21,5 +25,9 @@
   encryptedPrivateKey: <encrypted_private_key>
   tokens:
     - symbol: usdt->usdt
+      swapRate: 2300
+      withdrawLiquidityCountThreshold: 10
+    ## ====
+    - symbol: usdc->usdc
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
