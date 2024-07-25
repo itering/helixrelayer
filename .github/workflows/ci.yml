@@ -9,8 +9,8 @@ env:
   HELIXBRIDGE_CLI_VERSION: sha-293ea43
 
 jobs:
-  deploy:
-    name: Register and generate configure
+  check:
+    name: Check changes
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -39,8 +39,19 @@ jobs:
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
             generate-configure --verbose --datadir=/relayer --group=itering
 
+      - name: Show files
+        run: |
+          ls -la
+          ls -la _source_
+
       - uses: int128/diff-action@v1
         with:
-          base: _source_/src
-          head: src
+          base: |
+            _source_/src
+            _source_/lock
+            _source_/configure
+          head: |
+            src
+            lock
+            configure
 
