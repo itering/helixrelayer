@@ -42,12 +42,6 @@ jobs:
 
       - uses: int128/diff-action@v1
         with:
-          base: |
-            _source_/src
-            _source_/lock
-            _source_/configure
-          head: |
-            src
-            lock
-            configure
+          base: _source_/src
+          head: src
 
