@@ -8,10 +8,10 @@ registers:
   - include: scroll-polygon.yml
 
   ## scroll<>arbitrum
-  - include: scroll-polygon.yml
+  - include: arbitrum-scroll.yml
 
   ## polygon<>arbitrum
-  - include: polygon-arbitrum.yml
+  - include: arbitrum-polygon.yml
 
   ## ethereum<>arbitrum
   - include: ethereum-arbitrum.yml
