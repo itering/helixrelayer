@@ -45,3 +45,17 @@ jobs:
           base: _${{ github.base_ref }}_/outputs
           head: outputs
 
+      - name: Build comment
+        run: |
+          COMMENT_FILE='comment-configurate.md';
+          for f in $(ls outputs/configure/); do
+            echo $f >> $COMMENT_FILE
+            echo "<details><summary>Source for ${f}</summary>" >> $COMMENT_FILE
+            cat $f >> $COMMENT_FILE
+            echo '</details>' >> $COMMENT_FILE
+          done
+
+      - name: Comment configurate
+        uses: GrantBirki/comment@v2
+        with:
+          file: comment-configurate.md
