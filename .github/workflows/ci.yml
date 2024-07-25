@@ -6,20 +6,21 @@ on:
 #      - main
 
 env:
-  HELIXBRIDGE_CLI_VERSION: sha-293ea43
+  HELIXBRIDGE_CLI_VERSION: sha-04b8c06
 
 jobs:
-  deploy:
-    name: Register and generate configure
+  check:
+    name: Check changes
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/checkout@v4
         with:
-          path: _source_
+          ref: ${{ github.base_ref }}
+          path: _${{ github.base_ref }}_
 
-      - name: Regiser
+      - name: Check regiser
         run: |
           docker run -i --rm \
           --name helixbridge \
@@ -29,7 +30,7 @@ jobs:
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
             register --verbose --datadir=/relayer --group=itering
 
-      - name: Generate configure
+      - name: Check configure
         run: |
           docker run -i --rm \
           --name helixbridge \
@@ -41,6 +42,14 @@ jobs:
 
       - uses: int128/diff-action@v1
         with:
-          base: src
-          head: _source_/src
+          base: _${{ github.base_ref }}_/lock
+          head: lock
+          comment-header: Diff lock
+          update-if-exists: create
 
+      - uses: int128/diff-action@v1
+        with:
+          base: _${{ github.base_ref }}_/configure
+          head: configure
+          comment-header: Diff configure
+          update-if-exists: create
