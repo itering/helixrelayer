@@ -17,6 +17,7 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
+          ref: main
           path: _source_
 
       - name: Regiser
@@ -38,13 +39,6 @@ jobs:
           -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
             generate-configure --verbose --datadir=/relayer --group=itering
-
-      - name: Show files
-        run: |
-          ls -la
-          ls -la _source_
-          echo '/_source_' >> .gitignore
-          git status
 
       - uses: int128/diff-action@v1
         with:
