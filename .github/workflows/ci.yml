@@ -42,14 +42,6 @@ jobs:
 
       - uses: int128/diff-action@v1
         with:
-          base: _${{ github.base_ref }}_/lock
-          head: lock
-          comment-header: Diff lock
-          update-if-exists: create
+          base: _${{ github.base_ref }}_/outputs
+          head: outputs
 
-      - uses: int128/diff-action@v1
-        with:
-          base: _${{ github.base_ref }}_/configure
-          head: configure
-          comment-header: Diff configure
-          update-if-exists: create
