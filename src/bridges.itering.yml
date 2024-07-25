@@ -1,0 +1,43 @@
+
+registers:
+  ## darwinia<>ethereum
+  - include: darwinia-ethereum.yml
+
+  ## scroll<>polygon
+  - include: scroll-polygon.yml
+
+  ## scroll<>arbitrum
+  - include: arbitrum-scroll.yml
+
+  ## polygon<>arbitrum
+  - include: arbitrum-polygon.yml
+
+  ## ethereum<>arbitrum
+  - include: ethereum-arbitrum.yml
+
+
+configure:
+  indexer: https://apollo.helixbridge.app/graphql
+  relayGasLimit: 600000
+  rpcnodes:
+    - name: arbitrum
+      rpc: https://arb1.arbitrum.io/rpc
+#      fixedGasPrice: 10
+    - name: polygon
+      rpc: https://polygon-bor-rpc.publicnode.com
+  bridges:
+    ## arbitrum<>polygon
+    - include: arbitrum-polygon.yml
+
+    ## darwinia<>ethereum
+    - include: darwinia-ethereum.yml
+
+    ## ethereum<>arbitrum
+    - include: ethereum-arbitrum.yml
+
+    ## arbitrum<>scroll
+    - include: arbitrum-scroll.yml
+
+    ## scroll<>polygon
+    - include: scroll-polygon.yml
+
