@@ -1,5 +1,3 @@
-
-
 - bridge: polygon->scroll
   symbol: usdt
   type: lnv3

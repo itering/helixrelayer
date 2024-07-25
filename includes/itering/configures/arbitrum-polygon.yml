@@ -11,7 +11,6 @@
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
 
-
 - direction: polygon->arbitrum
   feeLimit: 150
   reorgThreshold: 200
@@ -24,4 +23,3 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
-
