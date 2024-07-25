@@ -1,9 +1,9 @@
-name: Check helix relayer config
+name: Deploy helix relayer config
 
 on:
-  pull_request:
-#    branches:
-#      - main
+  push:
+    branches: [main]
+  workflow_dispatch:
 
 env:
   HELIXBRIDGE_CLI_VERSION: sha-fa3ac7d
@@ -14,10 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/checkout@v4
-        with:
-          path: _source_
 
       - name: Regiser
         run: |
@@ -39,13 +35,16 @@ jobs:
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
             generate-configure --verbose --datadir=/relayer --group=itering
 
-      - uses: int128/diff-action@v1
-        with:
-          base: lock
-          head: _source_/lock
+      - name: Commit files
+        run: |
+          MSG="Register and generate configure"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "${MSG:-Auto update}" || true
 
-      - uses: int128/diff-action@v1
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          base: configure
-          head: _source_/configure
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
