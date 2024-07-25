@@ -48,7 +48,7 @@ jobs:
       - name: Build comment
         run: |
           COMMENT_FILE='comment-configurate.md';
-          for f in $(ls outputs/configure/); do
+          for f in $(ls outputs/configure/*.json); do
             echo $f >> $COMMENT_FILE
             echo "<details><summary>Source for ${f}</summary>" >> $COMMENT_FILE
             cat $f >> $COMMENT_FILE
@@ -59,3 +59,4 @@ jobs:
         uses: GrantBirki/comment@v2
         with:
           file: comment-configurate.md
+          edit-mode: replace
