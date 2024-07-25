@@ -49,12 +49,15 @@ jobs:
         run: |
           COMMENT_FILE='comment-configurate.md';
           for f in $(ls outputs/configure/*.json); do
-            echo "<details><summary>${f}</summary>" >> $COMMENT_FILE
-            echo '' >> $COMMENT_FILE
-            echo '```' >> $COMMENT_FILE
-            cat $f >> $COMMENT_FILE
-            echo '```' >> $COMMENT_FILE
+            echo "<details>" >> $COMMENT_FILE
+              echo "<summary>${f}</summary>" >> $COMMENT_FILE
+              echo '' >> $COMMENT_FILE
+              echo '```json' >> $COMMENT_FILE
+              cat $f >> $COMMENT_FILE
+              echo '```' >> $COMMENT_FILE
             echo '</details>' >> $COMMENT_FILE
+            echo '' >> $COMMENT_FILE
+            echo '' >> $COMMENT_FILE
           done
 
       - name: Comment configurate
