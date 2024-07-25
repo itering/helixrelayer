@@ -43,6 +43,8 @@ jobs:
         run: |
           ls -la
           ls -la _source_
+          echo '/_source_' >> .gitignore
+          git status
 
       - uses: int128/diff-action@v1
         with:
