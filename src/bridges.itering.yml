@@ -42,8 +42,6 @@ configure:
         protocol: aave
         healthFactorLimit: 3
         collaterals:
-          - symbol: matic
-            autosupplyAmount: 0.2
           - symbol: usdc
             autosupplyAmount: 400
         tokens:
