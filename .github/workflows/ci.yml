@@ -58,7 +58,6 @@ jobs:
               echo '```' >> $COMMENT_FILE
             echo '</details>' >> $COMMENT_FILE
             echo '' >> $COMMENT_FILE
-            echo '' >> $COMMENT_FILE
           done
 
       - name: Comment configurate
