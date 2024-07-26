@@ -54,6 +54,7 @@ jobs:
               echo '' >> $COMMENT_FILE
               echo '```json' >> $COMMENT_FILE
               cat $f >> $COMMENT_FILE
+              echo '' >> $COMMENT_FILE
               echo '```' >> $COMMENT_FILE
             echo '</details>' >> $COMMENT_FILE
             echo '' >> $COMMENT_FILE
