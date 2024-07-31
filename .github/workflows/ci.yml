@@ -64,4 +64,3 @@ jobs:
         uses: GrantBirki/comment@v2
         with:
           file: comment-configurate.md
-          edit-mode: replace
