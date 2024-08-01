@@ -1,6 +1,7 @@
 - direction: arbitrum->polygon
-  feeLimit: 100
+  feeLimit: 0.01
   reorgThreshold: 200
+  microReorgThreshold: 50 #
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-polygon.safe.global/api'
@@ -10,6 +11,12 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
+      microThreshold: 50
+    ## ====
+#    - symbol: usdc->usdc
+#      swapRate: 2300
+#      withdrawLiquidityCountThreshold: 10
+#      microThreshold: 50
 
 - direction: polygon->arbitrum
   feeLimit: 150
@@ -23,3 +30,7 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
+    ## ====
+#    - symbol: usdc->usdc
+#      swapRate: 2300
+#      withdrawLiquidityCountThreshold: 10

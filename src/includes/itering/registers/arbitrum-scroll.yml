@@ -1,9 +1,6 @@
 - bridge: arbitrum->scroll
   symbol: usdt
   type: lnv3
-  contract: '0xbA5D580B18b6436411562981e02c8A9aA1776D10'
-  sourceTokenAddress: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9'
-  targetTokenAddress: '0xf55bec9cafdbe8730f096aa55dad6d22d44099df'
   baseFee: 0.1
   liquidityFeeRate: 0.1
   transferLimit: 500
@@ -15,9 +12,6 @@
 - bridge: scroll->arbitrum
   symbol: usdt
   type: lnv3
-  contract: '0xbA5D580B18b6436411562981e02c8A9aA1776D10'
-  sourceTokenAddress: '0xf55bec9cafdbe8730f096aa55dad6d22d44099df'
-  targetTokenAddress: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9'
   baseFee: 0.1
   liquidityFeeRate: 0.1
   transferLimit: 500
