@@ -1,13 +1,13 @@
 
 name: polygon
 rpc: https://polygon-bor-rpc.publicnode.com
-lendMarket:
-  protocol: aave
-  healthFactorLimit: 3
-  collaterals:
-    - symbol: usdc
-      autosupplyAmount: 400
-  tokens:
-    - symbol: usdt
-      minRepay: 100
-      minReserved: 0
+#lendMarket:
+#  protocol: aave
+#  healthFactorLimit: 3
+#  collaterals:
+#    - symbol: usdc
+#      autosupplyAmount: 400
+#  tokens:
+#    - symbol: usdt
+#      minRepay: 100
+#      minReserved: 0

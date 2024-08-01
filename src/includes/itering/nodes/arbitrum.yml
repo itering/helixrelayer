@@ -1,14 +1,14 @@
 name: arbitrum
 rpc: https://arb1.arbitrum.io/rpc
-lendMarket:
-  protocol: aave
-  healthFactorLimit: 3
-  collaterals:
-    - symbol: eth
-      autosupplyAmount: 0.2
-    - symbol: usdc
-      autosupplyAmount: 2000
-  tokens:
-    - symbol: usdt
-      minRepay: 100
-      minReserved: 0
+#lendMarket:
+#  protocol: aave
+#  healthFactorLimit: 3
+#  collaterals:
+#    - symbol: eth
+#      autosupplyAmount: 0.2
+#    - symbol: usdc
+#      autosupplyAmount: 2000
+#  tokens:
+#    - symbol: usdt
+#      minRepay: 100
+#      minReserved: 0
