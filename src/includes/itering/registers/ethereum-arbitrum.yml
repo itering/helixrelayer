@@ -1,9 +1,6 @@
 - bridge: arbitrum->ethereum
   symbol: ring
   type: lnv2-opposite
-  contract: '0x48d769d5C7ff75703cDd1543A1a2ed9bC9044A23'
-  sourceTokenAddress: '0x9e523234d36973f9e38642886197d023c88e307e'
-  targetTokenAddress: '0x9469d013805bffb7d3debe5e7839237e535ec483'
   baseFee: 2600
   liquidityFeeRate: 0.1
   transferLimit: 400000
@@ -16,9 +13,6 @@
 - bridge: ethereum->arbitrum
   symbol: ring
   type: lnv2-default
-  contract: '0x94C614DAeFDbf151E1BB53d6A201ae5fF56A9337'
-  sourceTokenAddress: '0x9469d013805bffb7d3debe5e7839237e535ec483'
-  targetTokenAddress: '0x9e523234d36973f9e38642886197d023c88e307e'
   baseFee: 500
   liquidityFeeRate: 0.1
   transferLimit: 300000
