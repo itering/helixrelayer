@@ -13,10 +13,10 @@
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
     ## ====
-    - symbol: usdc->usdc
-      swapRate: 2300
-      withdrawLiquidityCountThreshold: 10
-      microThreshold: 50
+#    - symbol: usdc->usdc
+#      swapRate: 2300
+#      withdrawLiquidityCountThreshold: 10
+#      microThreshold: 50
 
 - direction: polygon->arbitrum
   feeLimit: 150
@@ -31,6 +31,6 @@
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
     ## ====
-    - symbol: usdc->usdc
-      swapRate: 2300
-      withdrawLiquidityCountThreshold: 10
+#    - symbol: usdc->usdc
+#      swapRate: 2300
+#      withdrawLiquidityCountThreshold: 10
