@@ -63,6 +63,6 @@ jobs:
       - name: Comment configurate
         uses: GrantBirki/comment@v2
         with:
-          comment-id: ${{ github.event.comment.id }}
+          comment-id: '100000-configurate'
           file: comment-configurate.md
           edit-mode: replace
