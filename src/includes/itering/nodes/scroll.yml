@@ -1,5 +1,4 @@
-name: arbitrum
-rpc: https://arb1.arbitrum.io/rpc
+name: scroll
 lendMarket:
   protocol: aave
   healthFactorLimit: 3
@@ -9,9 +8,6 @@ lendMarket:
     - symbol: usdc
       autosupplyAmount: 2000
   tokens:
-    - symbol: usdt
-      minRepay: 100
-      minReserved: 0
     - symbol: eth
       minRepay: 0.1
       minReserved: 0

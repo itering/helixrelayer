@@ -20,9 +20,15 @@ configure:
   indexer: https://apollo.helixbridge.app/graphql
   relayGasLimit: 600000
   rpcnodes:
-
     - include: arbitrum.yml
+    - include: avalanche.yml
+    - include: base.yml
+    - include: bsc.yml
+    - include: gnosis.yml
+    - include: mantle.yml
+    - include: op.yml
     - include: polygon.yml
+    - include: scroll.yml
 
   bridges:
     ## arbitrum<>polygon
