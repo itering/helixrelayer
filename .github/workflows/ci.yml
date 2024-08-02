@@ -66,3 +66,4 @@ jobs:
           comment-id: ${{ github.event.comment.id }}
           file: comment-configurate.md
           edit-mode: replace
+
