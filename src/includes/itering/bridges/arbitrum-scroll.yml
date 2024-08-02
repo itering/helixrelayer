@@ -10,6 +10,10 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
+    - symbol: usdc->usdc
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 50
 
 - direction: scroll->arbitrum
   feeLimit: 150
@@ -23,3 +27,7 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
+    - symbol: usdc->usdc
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 50

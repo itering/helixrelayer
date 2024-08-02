@@ -1,20 +1,16 @@
 
 registers:
-  ## darwinia<>ethereum
-  - include: darwinia-ethereum.yml
-
-  ## scroll<>polygon
-  - include: scroll-polygon.yml
-
-  ## scroll<>arbitrum
-  - include: arbitrum-scroll.yml
-
-  ## polygon<>arbitrum
+  - include: arbitrum-avalanche.yml
+  - include: arbitrum-base.yml
+  - include: arbitrum-bsc.yml
+  - include: arbitrum-gnosis.yml
+  - include: arbitrum-mantle.yml
+  - include: arbitrum-op.yml
   - include: arbitrum-polygon.yml
-
-  ## ethereum<>arbitrum
+  - include: arbitrum-scroll.yml
+  - include: darwinia-ethereum.yml
   - include: ethereum-arbitrum.yml
-
+  - include: scroll-polygon.yml
 
 configure:
   indexer: https://apollo.helixbridge.app/graphql
@@ -31,18 +27,14 @@ configure:
     - include: scroll.yml
 
   bridges:
-    ## arbitrum<>polygon
+    - include: arbitrum-avalanche.yml
+    - include: arbitrum-base.yml
+    - include: arbitrum-bsc.yml
+    - include: arbitrum-gnosis.yml
+    - include: arbitrum-mantle.yml
+    - include: arbitrum-op.yml
     - include: arbitrum-polygon.yml
-
-    ## darwinia<>ethereum
-    - include: darwinia-ethereum.yml
-
-    ## ethereum<>arbitrum
-    - include: ethereum-arbitrum.yml
-
-    ## arbitrum<>scroll
     - include: arbitrum-scroll.yml
-
-    ## scroll<>polygon
+    - include: darwinia-ethereum.yml
+    - include: ethereum-arbitrum.yml
     - include: scroll-polygon.yml
-
