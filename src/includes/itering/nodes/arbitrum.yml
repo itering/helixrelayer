@@ -13,5 +13,5 @@ lendMarket:
       minRepay: 100
       minReserved: 0
     - symbol: eth
-      minRepay: 0.1
+      minRepay: 0.05
       minReserved: 0

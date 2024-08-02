@@ -9,5 +9,5 @@ lendMarket:
       autosupplyAmount: 2000
   tokens:
     - symbol: eth
-      minRepay: 0.1
+      minRepay: 0.05
       minReserved: 0
