@@ -74,4 +74,3 @@ jobs:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           file: comment-configurate.md
           edit-mode: replace
-
