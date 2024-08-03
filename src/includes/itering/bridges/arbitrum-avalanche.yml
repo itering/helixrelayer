@@ -14,7 +14,7 @@
       microThreshold: 50
 
 - direction: avalanche->arbitrum
-  feeLimit: 0.1
+  feeLimit: 0.3
   reorgThreshold: 200
   microReorgThreshold: 50
   bridgeType: lnv3

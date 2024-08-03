@@ -11,6 +11,13 @@ registers:
   - include: darwinia-ethereum.yml
   - include: ethereum-arbitrum.yml
   - include: scroll-polygon.yml
+  - include: avalanche-base.yml
+  - include: avalanche-bsc.yml
+  - include: avalanche-gnosis.yml
+  - include: avalanche-mantle.yml
+  - include: avalanche-op.yml
+  - include: avalanche-polygon.yml
+  - include: avalanche-scroll.yml
 
 configure:
   indexer: https://apollo.helixbridge.app/graphql
@@ -38,3 +45,10 @@ configure:
     - include: darwinia-ethereum.yml
     - include: ethereum-arbitrum.yml
     - include: scroll-polygon.yml
+    - include: avalanche-base.yml
+    - include: avalanche-bsc.yml
+    - include: avalanche-gnosis.yml
+    - include: avalanche-mantle.yml
+    - include: avalanche-op.yml
+    - include: avalanche-polygon.yml
+    - include: avalanche-scroll.yml

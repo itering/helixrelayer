@@ -7,7 +7,7 @@
   deposit: 100
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-  sourceSafeWalletUrl: 'https://safe-transaction-polygon.safe.global/api'
+  sourceSafeWalletUrl: 'https://safe-transaction-base.safe.global/api'
 
 - bridge: arbitrum->base
   symbol: usdc
@@ -29,7 +29,7 @@
   deposit: 0.06
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-  sourceSafeWalletUrl: 'https://safe-transaction-polygon.safe.global/api'
+  sourceSafeWalletUrl: 'https://safe-transaction-base.safe.global/api'
 
 - bridge: arbitrum->base
   symbol: usdc

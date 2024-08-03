@@ -7,7 +7,7 @@
   deposit: 100
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-  sourceSafeWalletUrl: 'https://gateway.multisig.mantle.xyz'
+  sourceSafeWalletUrl: 'https://gateway.multisig.mantle.xyz/api'
 
 - bridge: arbitrum->mantle
   symbol: usdc
