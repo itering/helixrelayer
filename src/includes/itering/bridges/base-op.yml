@@ -12,6 +12,10 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
+    - symbol: eth->eth
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 0.01
 
 - direction: op->base
   feeLimit: 0.01
@@ -27,3 +31,7 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
+    - symbol: eth->eth
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 0.01
