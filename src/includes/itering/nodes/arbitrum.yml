@@ -1,5 +1,4 @@
 name: arbitrum
-rpc: https://arb1.arbitrum.io/rpc
 lendMarket:
   protocol: aave
   healthFactorLimit: 3
