@@ -57,7 +57,7 @@ configure:
 #    - include: arbitrum-avalanche.yml
 #    - include: arbitrum-base.yml
 #    - include: arbitrum-bsc.yml
-#    - include: arbitrum-ethereum.yml
+    - include: arbitrum-ethereum.yml
 #    - include: arbitrum-gnosis.yml
 #    - include: arbitrum-mantle.yml
 #    - include: arbitrum-op.yml
@@ -81,7 +81,7 @@ configure:
 #    - include: bsc-op.yml
 #    - include: bsc-polygon.yml
 #    - include: bsc-scroll.yml
-#    - include: darwinia-ethereum.yml
+    - include: darwinia-ethereum.yml
 #    - include: gnosis-mantle.yml
 #    - include: gnosis-op.yml
 #    - include: gnosis-polygon.yml
