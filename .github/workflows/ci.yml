@@ -6,7 +6,7 @@ on:
 #      - main
 
 env:
-  HELIXBRIDGE_CLI_VERSION: sha-74c695f
+  HELIXBRIDGE_CLI_VERSION: sha-bea7f6e
 
 jobs:
   check:
@@ -48,6 +48,7 @@ jobs:
       - name: Build comment
         run: |
           COMMENT_FILE='comment-configurate.md';
+          echo 'configure changes:' >> $COMMENT_FILE
           for f in $(ls outputs/configure/*.json); do
             echo "<details>" >> $COMMENT_FILE
               echo "<summary>${f}</summary>" >> $COMMENT_FILE
@@ -60,9 +61,16 @@ jobs:
             echo '' >> $COMMENT_FILE
           done
 
+      - name: Find Comment
+        uses: peter-evans/find-comment@v3
+        id: fc
+        with:
+          issue-number: ${{ github.event.number }}
+          body-includes: configure changes
+
       - name: Comment configurate
         uses: GrantBirki/comment@v2
         with:
-          comment-id: ${{ github.event.comment.id }}
+          comment-id: ${{ steps.fc.outputs.comment-id }}
           file: comment-configurate.md
           edit-mode: replace

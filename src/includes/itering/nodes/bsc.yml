@@ -1,4 +1,4 @@
-name: polygon
+name: bsc
 lendMarket:
   protocol: aave
   healthFactorLimit: 3

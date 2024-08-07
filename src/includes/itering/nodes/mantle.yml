@@ -1,4 +1,4 @@
-name: polygon
+name: mantle
 lendMarket:
   protocol: aave
   healthFactorLimit: 3

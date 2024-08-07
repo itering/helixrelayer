@@ -1,4 +1,4 @@
-name: polygon
+name: avalanche
 lendMarket:
   protocol: aave
   healthFactorLimit: 3

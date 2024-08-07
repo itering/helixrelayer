@@ -1,4 +1,4 @@
-name: polygon
+name: gnosis
 lendMarket:
   protocol: aave
   healthFactorLimit: 3

@@ -1,4 +1,4 @@
-name: arbitrum
+name: base
 lendMarket:
   protocol: aave
   healthFactorLimit: 3
@@ -8,9 +8,6 @@ lendMarket:
     - symbol: usdc
       autosupplyAmount: 2000
   tokens:
-    - symbol: usdt
-      minRepay: 100
-      minReserved: 0
     - symbol: eth
       minRepay: 0.05
       minReserved: 0
