@@ -56,7 +56,7 @@
 - bridge: arbitrum->scroll
   symbol: eth
   type: lnv3
-  baseFee: 0.1
+  baseFee: 0.0001
   liquidityFeeRate: 0.1
   transferLimit: 0.4
   deposit: 0.06
