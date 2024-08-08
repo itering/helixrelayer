@@ -45,7 +45,7 @@ configure:
   rpcnodes:
     - include: arbitrum.yml
     - include: astar-zkevm.yml
-    #- include: avalanche.yml
+    - include: avalanche.yml
     - include: base.yml
     - include: blast.yml
     - include: bsc.yml
