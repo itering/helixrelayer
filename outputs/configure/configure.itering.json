@@ -34,7 +34,23 @@
       ]
     },
     {
-      "name": "astar-zkevm"
+      "name": "astar-zkevm",
+      "lendMarket": []
+    },
+    {
+      "name": "avalanche",
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "base",
@@ -63,19 +79,24 @@
       ]
     },
     {
-      "name": "blast"
+      "name": "blast",
+      "lendMarket": []
     },
     {
-      "name": "bsc"
+      "name": "bsc",
+      "lendMarket": []
     },
     {
-      "name": "crab-dvm"
+      "name": "crab-dvm",
+      "lendMarket": []
     },
     {
-      "name": "darwinia-dvm"
+      "name": "darwinia-dvm",
+      "lendMarket": []
     },
     {
-      "name": "ethereum"
+      "name": "ethereum",
+      "lendMarket": []
     },
     {
       "name": "gnosis",
@@ -93,7 +114,8 @@
       ]
     },
     {
-      "name": "linea"
+      "name": "linea",
+      "lendMarket": []
     },
     {
       "name": "mantle",
@@ -111,7 +133,8 @@
       ]
     },
     {
-      "name": "moonbeam"
+      "name": "moonbeam",
+      "lendMarket": []
     },
     {
       "name": "op",
@@ -181,7 +204,8 @@
       ]
     },
     {
-      "name": "zksync"
+      "name": "zksync",
+      "lendMarket": []
     }
   ],
   "bridges": [
