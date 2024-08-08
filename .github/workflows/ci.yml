@@ -6,7 +6,7 @@ on:
 #      - main
 
 env:
-  HELIXBRIDGE_CLI_VERSION: sha-ebe44d8
+  HELIXBRIDGE_CLI_VERSION: sha-5d37fe3
 
 jobs:
   check:
