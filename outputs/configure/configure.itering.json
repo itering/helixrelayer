@@ -4,169 +4,187 @@
   "rpcnodes": [
     {
       "name": "arbitrum",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "eth",
-            "autosupplyAmount": 0.4
-          },
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ],
-        "tokens": [
-          {
-            "symbol": "usdt",
-            "minRepay": 100,
-            "minReserved": 0
-          },
-          {
-            "symbol": "eth",
-            "minRepay": 0.05,
-            "minReserved": 0
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "eth",
+              "autosupplyAmount": 0.4
+            },
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": [
+            {
+              "symbol": "usdt",
+              "minRepay": 100,
+              "minReserved": 0
+            },
+            {
+              "symbol": "eth",
+              "minRepay": 0.05,
+              "minReserved": 0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "avalanche",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "base",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "eth",
-            "autosupplyAmount": 0.4
-          },
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ],
-        "tokens": [
-          {
-            "symbol": "eth",
-            "minRepay": 0.05,
-            "minReserved": 0
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "eth",
+              "autosupplyAmount": 0.4
+            },
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": [
+            {
+              "symbol": "eth",
+              "minRepay": 0.05,
+              "minReserved": 0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "bsc",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "gnosis",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "mantle",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "op",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "eth",
-            "autosupplyAmount": 0.4
-          },
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ],
-        "tokens": [
-          {
-            "symbol": "eth",
-            "minRepay": 0.05,
-            "minReserved": 0
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "eth",
+              "autosupplyAmount": 0.4
+            },
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": [
+            {
+              "symbol": "eth",
+              "minRepay": 0.05,
+              "minReserved": 0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "polygon",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "scroll",
-      "lendMarket": {
-        "protocol": "aave",
-        "healthFactorLimit": 3,
-        "collaterals": [
-          {
-            "symbol": "eth",
-            "autosupplyAmount": 0.4
-          },
-          {
-            "symbol": "usdc",
-            "autosupplyAmount": 2000
-          }
-        ],
-        "tokens": [
-          {
-            "symbol": "eth",
-            "minRepay": 0.05,
-            "minReserved": 0
-          }
-        ]
-      }
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "eth",
+              "autosupplyAmount": 0.4
+            },
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": [
+            {
+              "symbol": "eth",
+              "minRepay": 0.05,
+              "minReserved": 0
+            }
+          ]
+        }
+      ]
     }
   ],
   "bridges": [
