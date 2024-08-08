@@ -39,18 +39,7 @@
     },
     {
       "name": "avalanche",
-      "lendMarket": [
-        {
-          "protocol": "aave",
-          "healthFactorLimit": 3,
-          "collaterals": [
-            {
-              "symbol": "usdc",
-              "autosupplyAmount": 2000
-            }
-          ]
-        }
-      ]
+      "lendMarket": []
     },
     {
       "name": "base",
@@ -100,18 +89,7 @@
     },
     {
       "name": "gnosis",
-      "lendMarket": [
-        {
-          "protocol": "aave",
-          "healthFactorLimit": 3,
-          "collaterals": [
-            {
-              "symbol": "usdc",
-              "autosupplyAmount": 2000
-            }
-          ]
-        }
-      ]
+      "lendMarket": []
     },
     {
       "name": "linea",
@@ -119,18 +97,7 @@
     },
     {
       "name": "mantle",
-      "lendMarket": [
-        {
-          "protocol": "aave",
-          "healthFactorLimit": 3,
-          "collaterals": [
-            {
-              "symbol": "usdc",
-              "autosupplyAmount": 2000
-            }
-          ]
-        }
-      ]
+      "lendMarket": []
     },
     {
       "name": "moonbeam",
@@ -164,18 +131,7 @@
     },
     {
       "name": "polygon",
-      "lendMarket": [
-        {
-          "protocol": "aave",
-          "healthFactorLimit": 3,
-          "collaterals": [
-            {
-              "symbol": "usdc",
-              "autosupplyAmount": 2000
-            }
-          ]
-        }
-      ]
+      "lendMarket": []
     },
     {
       "name": "scroll",
