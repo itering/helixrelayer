@@ -3,7 +3,7 @@
     "bridge": "arbitrum->scroll",
     "symbol": "eth",
     "type": "lnv3",
-    "baseFee": 0.1,
+    "baseFee": 0.0001,
     "liquidityFeeRate": 0.1,
     "transferLimit": 0.4,
     "deposit": 0.06,
@@ -12,7 +12,7 @@
     "sourceSafeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1arbitrum->scroll0.060.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-arbitrum.safe.global/apieth0.4lnv3",
-    "hash": "e4a1e3ac07bd5ec7a00b80597559ee494a50f21e14440ceff3aecc328113f377"
+    "origin": "100000000000000.0001arbitrum->scroll0.060.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-arbitrum.safe.global/apieth0.4lnv3",
+    "hash": "6854241b5388973b12a02788bb6a5cfed26ba71a886fd2e78390eceedf618ac7"
   }
 }
