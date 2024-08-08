@@ -1,13 +1,13 @@
 name: base
 lendMarket:
-  protocol: aave
-  healthFactorLimit: 3
-  collaterals:
-    - symbol: eth
-      autosupplyAmount: 0.4
-    - symbol: usdc
-      autosupplyAmount: 2000
-  tokens:
-    - symbol: eth
-      minRepay: 0.05
-      minReserved: 0
+  - protocol: aave
+    healthFactorLimit: 3
+    collaterals:
+      - symbol: eth
+        autosupplyAmount: 0.4
+      - symbol: usdc
+        autosupplyAmount: 2000
+    tokens:
+      - symbol: eth
+        minRepay: 0.05
+        minReserved: 0
