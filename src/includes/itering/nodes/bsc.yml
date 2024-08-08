@@ -1,7 +1,1 @@
 name: bsc
-lendMarket:
-  - protocol: aave
-    healthFactorLimit: 3
-    collaterals:
-      - symbol: usdc
-        autosupplyAmount: 2000
