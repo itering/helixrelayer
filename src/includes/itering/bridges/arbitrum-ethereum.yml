@@ -1,6 +1,7 @@
 - direction: arbitrum->ethereum
   feeLimit: 100
   reorgThreshold: 100
+  microReorgThreshold: 120
   bridgeType: lnv2-opposite
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-mainnet.safe.global/api'
