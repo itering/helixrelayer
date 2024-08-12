@@ -32,7 +32,7 @@
   sourceSafeWalletUrl: 'https://safe-transaction-optimism.safe.global/api'
 
 - bridge: arbitrum->op
-  symbol: usdc
+  symbol: eth
   type: lnv3
   baseFee: 0.1
   liquidityFeeRate: 0.1
