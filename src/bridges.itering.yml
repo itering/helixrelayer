@@ -16,7 +16,7 @@ registers:
 #  - include: avalanche-op.yml
 #  - include: avalanche-polygon.yml
 #  - include: avalanche-scroll.yml
-#  - include: base-bsc.yml
+  - include: base-bsc.yml
 #  - include: base-gnosis.yml
 #  - include: base-mantle.yml
 #  - include: base-op.yml
@@ -35,7 +35,7 @@ registers:
 #  - include: mantle-op.yml
 #  - include: mantle-polygon.yml
 #  - include: mantle-scroll.yml
-#  - include: op-polygon.yml
+  - include: op-polygon.yml
 #  - include: op-scroll.yml
   - include: polygon-scroll.yml
 
