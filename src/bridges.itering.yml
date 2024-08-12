@@ -2,7 +2,7 @@
 registers:
   - include: arbitrum-avalanche.yml
   - include: arbitrum-base.yml
-  - include: arbitrum-bsc.yml
+#  - include: arbitrum-bsc.yml
   - include: arbitrum-ethereum.yml
 #  - include: arbitrum-gnosis.yml
 #  - include: arbitrum-mantle.yml
@@ -10,7 +10,7 @@ registers:
   - include: arbitrum-polygon.yml
   - include: arbitrum-scroll.yml
 #  - include: avalanche-base.yml
-#  - include: avalanche-bsc.yml
+  - include: avalanche-bsc.yml
 #  - include: avalanche-gnosis.yml
 #  - include: avalanche-mantle.yml
 #  - include: avalanche-op.yml
@@ -36,7 +36,7 @@ registers:
 #  - include: mantle-polygon.yml
 #  - include: mantle-scroll.yml
 #  - include: op-polygon.yml
-#  - include: op-scroll.yml
+  - include: op-scroll.yml
   - include: polygon-scroll.yml
 
 configure:
