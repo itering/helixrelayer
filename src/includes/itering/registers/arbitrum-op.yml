@@ -20,24 +20,24 @@
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
 
-#- bridge: op->arbitrum
-#  symbol: eth
-#  type: lnv3
-#  baseFee: 0.0001
-#  liquidityFeeRate: 0.1
-#  transferLimit: 0.1
-#  deposit: 0.06
-#  approve: 10000000000000
-#  safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-#  sourceSafeWalletUrl: 'https://safe-transaction-optimism.safe.global/api'
-#
-#- bridge: arbitrum->op
-#  symbol: usdc
-#  type: lnv3
-#  baseFee: 0.1
-#  liquidityFeeRate: 0.1
-#  transferLimit: 0.1
-#  deposit: 0.06
-#  approve: 10000000000000
-#  safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-#  sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
+- bridge: op->arbitrum
+  symbol: eth
+  type: lnv3
+  baseFee: 0.0001
+  liquidityFeeRate: 0.1
+  transferLimit: 0.1
+  deposit: 0.06
+  approve: 10000000000000
+  safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
+  sourceSafeWalletUrl: 'https://safe-transaction-optimism.safe.global/api'
+
+- bridge: arbitrum->op
+  symbol: usdc
+  type: lnv3
+  baseFee: 0.1
+  liquidityFeeRate: 0.1
+  transferLimit: 0.1
+  deposit: 0.06
+  approve: 10000000000000
+  safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
+  sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
