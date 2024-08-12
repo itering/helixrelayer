@@ -120,20 +120,7 @@
       ]
     },
     {
-      "name": "mantle",
-      "lendMarket": [
-        {
-          "protocol": "aave",
-          "healthFactorLimit": 3,
-          "collaterals": [
-            {
-              "symbol": "usdc",
-              "autosupplyAmount": 2000
-            }
-          ],
-          "tokens": []
-        }
-      ]
+      "name": "mantle"
     },
     {
       "name": "moonbeam"
