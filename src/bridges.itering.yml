@@ -14,7 +14,7 @@ registers:
 #  - include: avalanche-gnosis.yml
 #  - include: avalanche-mantle.yml
   - include: avalanche-op.yml
-#  - include: avalanche-polygon.yml
+  - include: avalanche-polygon.yml
 #  - include: avalanche-scroll.yml
   - include: base-bsc.yml
 #  - include: base-gnosis.yml
