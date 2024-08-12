@@ -30,7 +30,7 @@ registers:
   - include: darwinia-ethereum.yml
 #  - include: gnosis-mantle.yml
   - include: gnosis-op.yml
-#  - include: gnosis-polygon.yml
+  - include: gnosis-polygon.yml
 #  - include: gnosis-scroll.yml
 #  - include: mantle-op.yml
 #  - include: mantle-polygon.yml
