@@ -1,7 +1,7 @@
 - direction: arbitrum->gnosis
   feeLimit: 0.01
   reorgThreshold: 200
-  microReorgThreshold: 50
+  microReorgThreshold: 120
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-gnosis-chain.safe.global/api'
@@ -16,7 +16,7 @@
 - direction: gnosis->arbitrum
   feeLimit: 0.1
   reorgThreshold: 200
-  microReorgThreshold: 50
+  microReorgThreshold: 20
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'

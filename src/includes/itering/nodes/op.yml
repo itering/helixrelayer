@@ -4,10 +4,10 @@ lendMarket:
     healthFactorLimit: 3
     collaterals:
       - symbol: eth
-        autosupplyAmount: 0.4
+        autosupplyAmount: 1
       - symbol: usdc
         autosupplyAmount: 2000
     tokens:
       - symbol: eth
-        minRepay: 0.05
+        minRepay: 0.1
         minReserved: 0

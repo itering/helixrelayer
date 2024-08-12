@@ -44,7 +44,6 @@ configure:
   relayGasLimit: 600000
   rpcnodes:
     - include: arbitrum.yml
-    - include: astar-zkevm.yml
     - include: avalanche.yml
     - include: base.yml
     - include: blast.yml
@@ -53,13 +52,11 @@ configure:
     - include: darwinia.yml
     - include: ethereum.yml
     - include: gnosis.yml
-    - include: linea.yml
     - include: mantle.yml
     - include: moonbeam.yml
     - include: op.yml
     - include: polygon.yml
     - include: scroll.yml
-    - include: zksync.yml
 
   bridges:
 #    - include: arbitrum-avalanche.yml
