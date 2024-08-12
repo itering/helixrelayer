@@ -1,0 +1,18 @@
+{
+  "register": {
+    "bridge": "bsc->polygon",
+    "symbol": "usdc",
+    "type": "lnv3",
+    "baseFee": 0.1,
+    "liquidityFeeRate": 0.1,
+    "transferLimit": 2000,
+    "deposit": 100,
+    "approve": 10000000000000,
+    "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+    "sourceSafeWalletUrl": "https://safe-transaction-bsc.safe.global/api"
+  },
+  "hash": {
+    "origin": "100000000000000.1bsc->polygon1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-bsc.safe.global/apiusdc2000lnv3",
+    "hash": "26f1b5e7e0acf822b46968a6dfff187e8470d97e0269e045c6a3babddaa2a7aa"
+  }
+}
