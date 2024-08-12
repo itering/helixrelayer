@@ -1,6 +1,6 @@
 
 registers:
-#  - include: arbitrum-avalanche.yml
+  - include: arbitrum-avalanche.yml
 #  - include: arbitrum-base.yml
 #  - include: arbitrum-bsc.yml
   - include: arbitrum-ethereum.yml
