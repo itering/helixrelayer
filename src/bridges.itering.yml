@@ -21,7 +21,7 @@ registers:
 #  - include: base-mantle.yml
   - include: base-op.yml
   - include: base-polygon.yml
-#  - include: base-scroll.yml
+  - include: base-scroll.yml
 #  - include: bsc-gnosis.yml
 #  - include: bsc-mantle.yml
 #  - include: bsc-op.yml
