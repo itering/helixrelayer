@@ -10,7 +10,7 @@ registers:
   - include: arbitrum-polygon.yml
   - include: arbitrum-scroll.yml
   - include: avalanche-base.yml
-#  - include: avalanche-bsc.yml
+  - include: avalanche-bsc.yml
 #  - include: avalanche-gnosis.yml
 #  - include: avalanche-mantle.yml
 #  - include: avalanche-op.yml
