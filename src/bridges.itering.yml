@@ -25,7 +25,7 @@ registers:
 #  - include: bsc-gnosis.yml
 #  - include: bsc-mantle.yml
   - include: bsc-op.yml
-#  - include: bsc-polygon.yml
+  - include: bsc-polygon.yml
 #  - include: bsc-scroll.yml
   - include: darwinia-ethereum.yml
 #  - include: gnosis-mantle.yml
