@@ -11,7 +11,7 @@
           "collaterals": [
             {
               "symbol": "eth",
-              "autosupplyAmount": 0.4
+              "autosupplyAmount": 1
             },
             {
               "symbol": "usdc",
@@ -26,7 +26,7 @@
             },
             {
               "symbol": "eth",
-              "minRepay": 0.05,
+              "minRepay": 0.1,
               "minReserved": 0
             }
           ]
@@ -34,12 +34,20 @@
       ]
     },
     {
-      "name": "astar-zkevm",
-      "lendMarket": []
-    },
-    {
       "name": "avalanche",
-      "lendMarket": []
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": []
+        }
+      ]
     },
     {
       "name": "base",
@@ -50,7 +58,7 @@
           "collaterals": [
             {
               "symbol": "eth",
-              "autosupplyAmount": 0.4
+              "autosupplyAmount": 1
             },
             {
               "symbol": "usdc",
@@ -60,7 +68,7 @@
           "tokens": [
             {
               "symbol": "eth",
-              "minRepay": 0.05,
+              "minRepay": 0.1,
               "minReserved": 0
             }
           ]
@@ -69,39 +77,79 @@
     },
     {
       "name": "blast",
-      "lendMarket": []
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": []
+        }
+      ]
     },
     {
       "name": "bsc",
-      "lendMarket": []
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": []
+        }
+      ]
     },
     {
-      "name": "crab-dvm",
-      "lendMarket": []
+      "name": "crab-dvm"
     },
     {
-      "name": "darwinia-dvm",
-      "lendMarket": []
+      "name": "darwinia-dvm"
     },
     {
-      "name": "ethereum",
-      "lendMarket": []
+      "name": "ethereum"
     },
     {
       "name": "gnosis",
-      "lendMarket": []
-    },
-    {
-      "name": "linea",
-      "lendMarket": []
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": []
+        }
+      ]
     },
     {
       "name": "mantle",
-      "lendMarket": []
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": []
+        }
+      ]
     },
     {
-      "name": "moonbeam",
-      "lendMarket": []
+      "name": "moonbeam"
     },
     {
       "name": "op",
@@ -112,7 +160,7 @@
           "collaterals": [
             {
               "symbol": "eth",
-              "autosupplyAmount": 0.4
+              "autosupplyAmount": 1
             },
             {
               "symbol": "usdc",
@@ -122,7 +170,7 @@
           "tokens": [
             {
               "symbol": "eth",
-              "minRepay": 0.05,
+              "minRepay": 0.1,
               "minReserved": 0
             }
           ]
@@ -131,7 +179,19 @@
     },
     {
       "name": "polygon",
-      "lendMarket": []
+      "lendMarket": [
+        {
+          "protocol": "aave",
+          "healthFactorLimit": 3,
+          "collaterals": [
+            {
+              "symbol": "usdc",
+              "autosupplyAmount": 2000
+            }
+          ],
+          "tokens": []
+        }
+      ]
     },
     {
       "name": "scroll",
@@ -142,7 +202,7 @@
           "collaterals": [
             {
               "symbol": "eth",
-              "autosupplyAmount": 0.4
+              "autosupplyAmount": 1
             },
             {
               "symbol": "usdc",
@@ -152,16 +212,12 @@
           "tokens": [
             {
               "symbol": "eth",
-              "minRepay": 0.05,
+              "minRepay": 0.1,
               "minReserved": 0
             }
           ]
         }
       ]
-    },
-    {
-      "name": "zksync",
-      "lendMarket": []
     }
   ],
   "bridges": [
@@ -169,6 +225,7 @@
       "direction": "arbitrum->ethereum",
       "feeLimit": 100,
       "reorgThreshold": 100,
+      "microReorgThreshold": 120,
       "bridgeType": "lnv2-opposite",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mainnet.safe.global/api",
@@ -201,7 +258,7 @@
       "direction": "arbitrum->polygon",
       "feeLimit": 0.01,
       "reorgThreshold": 200,
-      "microReorgThreshold": 50,
+      "microReorgThreshold": 30,
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
@@ -220,7 +277,7 @@
       "direction": "polygon->arbitrum",
       "feeLimit": 0.1,
       "reorgThreshold": 200,
-      "microReorgThreshold": 50,
+      "microReorgThreshold": 30,
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
@@ -239,7 +296,7 @@
       "direction": "arbitrum->scroll",
       "feeLimit": 100,
       "reorgThreshold": 200,
-      "microReorgThreshold": 50,
+      "microReorgThreshold": 120,
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
@@ -269,7 +326,7 @@
       "direction": "scroll->arbitrum",
       "feeLimit": 150,
       "reorgThreshold": 200,
-      "microReorgThreshold": 50,
+      "microReorgThreshold": 30,
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
@@ -331,6 +388,7 @@
       "direction": "polygon->scroll",
       "feeLimit": 100,
       "reorgThreshold": 200,
+      "microReorgThreshold": 30,
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
@@ -348,6 +406,7 @@
       "direction": "scroll->polygon",
       "feeLimit": 150,
       "reorgThreshold": 200,
+      "microReorgThreshold": 30,
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
