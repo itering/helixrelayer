@@ -11,7 +11,7 @@
           "collaterals": [
             {
               "symbol": "eth",
-              "autosupplyAmount": 1
+              "autosupplyAmount": 0.9
             },
             {
               "symbol": "usdc",
@@ -42,7 +42,7 @@
           "collaterals": [
             {
               "symbol": "usdc",
-              "autosupplyAmount": 2000
+              "autosupplyAmount": 1800
             }
           ],
           "tokens": []
@@ -58,11 +58,11 @@
           "collaterals": [
             {
               "symbol": "eth",
-              "autosupplyAmount": 1
+              "autosupplyAmount": 0.9
             },
             {
               "symbol": "usdc",
-              "autosupplyAmount": 2000
+              "autosupplyAmount": 1800
             }
           ],
           "tokens": [
@@ -87,7 +87,7 @@
           "collaterals": [
             {
               "symbol": "usdc",
-              "autosupplyAmount": 2000
+              "autosupplyAmount": 1800
             }
           ],
           "tokens": []
@@ -112,7 +112,7 @@
           "collaterals": [
             {
               "symbol": "usdc",
-              "autosupplyAmount": 2000
+              "autosupplyAmount": 1800
             }
           ],
           "tokens": []
@@ -134,11 +134,11 @@
           "collaterals": [
             {
               "symbol": "eth",
-              "autosupplyAmount": 1
+              "autosupplyAmount": 0.9
             },
             {
               "symbol": "usdc",
-              "autosupplyAmount": 2000
+              "autosupplyAmount": 1800
             }
           ],
           "tokens": [
@@ -160,7 +160,7 @@
           "collaterals": [
             {
               "symbol": "usdc",
-              "autosupplyAmount": 2000
+              "autosupplyAmount": 1800
             }
           ],
           "tokens": [
@@ -182,11 +182,11 @@
           "collaterals": [
             {
               "symbol": "eth",
-              "autosupplyAmount": 1
+              "autosupplyAmount": 0.9
             },
             {
               "symbol": "usdc",
-              "autosupplyAmount": 2000
+              "autosupplyAmount": 1800
             }
           ],
           "tokens": [
