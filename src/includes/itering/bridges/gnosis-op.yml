@@ -12,6 +12,11 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
+    - symbol: dai->dai
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 50
+
 
 - direction: op->gnosis
   feeLimit: 0.1
@@ -27,3 +32,8 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
+    - symbol: dai->dai
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 50
+

@@ -12,6 +12,14 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
+    - symbol: dai->dai
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 50
+    - symbol: link->link
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 5
 
 - direction: polygon->op
   feeLimit: 0.1
@@ -27,3 +35,11 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
+    - symbol: dai->dai
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 50
+    - symbol: link->link
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 5
