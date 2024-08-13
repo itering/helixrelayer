@@ -3,7 +3,7 @@
     "bridge": "polygon->gnosis",
     "symbol": "usdc",
     "type": "lnv3",
-    "baseFee": 0.01,
+    "baseFee": 0.1,
     "liquidityFeeRate": 0.1,
     "transferLimit": 2000,
     "deposit": 100,
@@ -12,7 +12,7 @@
     "sourceSafeWalletUrl": "https://safe-transaction-polygon.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.01polygon->gnosis1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-polygon.safe.global/apiusdc2000lnv3",
-    "hash": "8e9b65077fa6fa2d407c23478f09732d0f78ae5d291aa2b50d0961068ca67025"
+    "origin": "100000000000000.1polygon->gnosis1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-polygon.safe.global/apiusdc2000lnv3",
+    "hash": "140a37d7e81f6e39ab3f367bcd638fdb1fa3c5e93517ec7b8022838e958f1e6d"
   }
 }

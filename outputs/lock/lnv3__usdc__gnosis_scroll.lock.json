@@ -1,6 +1,6 @@
 {
   "register": {
-    "bridge": "gnosis->polygon",
+    "bridge": "gnosis->scroll",
     "symbol": "usdc",
     "type": "lnv3",
     "baseFee": 0.1,
@@ -12,7 +12,7 @@
     "sourceSafeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1gnosis->polygon1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-gnosis-chain.safe.global/apiusdc2000lnv3",
-    "hash": "a469fa1148c051889006ea7b9034d5136197ef8f24458a5fe107526580e197f5"
+    "origin": "100000000000000.1gnosis->scroll1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-gnosis-chain.safe.global/apiusdc2000lnv3",
+    "hash": "5cab76b1750eb41f013e9a817412a1a15e32540be362f7ee26ff1df045ebdbcf"
   }
 }
