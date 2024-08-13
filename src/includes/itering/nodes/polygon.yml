@@ -9,4 +9,10 @@ lendMarket:
       - symbol: usdt
         minRepay: 100
         minReserved: 0
+      - symbol: dai
+        minRepay: 100
+        minReserved: 0
+      - symbol: link
+        minRepay: 10
+        minReserved: 0
 

@@ -5,4 +5,10 @@ lendMarket:
     collaterals:
       - symbol: usdc
         autosupplyAmount: 1800
-    tokens: []
+    tokens:
+      - symbol: dai
+        minRepay: 100
+        minReserved: 0
+      - symbol: link
+        minRepay: 10
+        minReserved: 0

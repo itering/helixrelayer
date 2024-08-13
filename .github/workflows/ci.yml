@@ -20,7 +20,7 @@ jobs:
           ref: ${{ github.base_ref }}
           path: _${{ github.base_ref }}_
 
-      - name: Check regiser
+      - name: Check register
         run: |
           docker run -i --rm \
           --name helixbridge \

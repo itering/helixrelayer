@@ -16,6 +16,14 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 0.01
+    - symbol: dai->dai
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 50
+    - symbol: link->link
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 5
 
 - direction: op->arbitrum
   feeLimit: 0.01
@@ -35,3 +43,11 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 0.01
+    - symbol: dai->dai
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 50
+    - symbol: link->link
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 5
