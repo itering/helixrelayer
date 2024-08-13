@@ -1,7 +1,7 @@
 - bridge: scroll->gnosis
   symbol: usdc
   type: lnv3
-  baseFee: 0.01
+  baseFee: 0.1
   liquidityFeeRate: 0.1
   transferLimit: 2000
   deposit: 100
@@ -12,7 +12,7 @@
 - bridge: gnosis->scroll
   symbol: usdc
   type: lnv3
-  baseFee: 0.01
+  baseFee: 0.1
   liquidityFeeRate: 0.1
   transferLimit: 2000
   deposit: 100

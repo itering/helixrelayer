@@ -1,4 +1,4 @@
-- bridge: gnosis->base # #### errored
+- bridge: gnosis->base
   symbol: usdc
   type: lnv3
   baseFee: 0.1
