@@ -21,7 +21,7 @@
   sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
 
 - bridge: gnosis->arbitrum
-  symbol: dai
+  symbol: xdai
   type: lnv3
   baseFee: 0.1
   liquidityFeeRate: 0.1

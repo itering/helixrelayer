@@ -32,7 +32,7 @@
 #  sourceSafeWalletUrl: 'https://safe-transaction-optimism.safe.global/api'
 #
 #- bridge: gnosis->op
-#  symbol: dai
+#  symbol: xdai
 #  type: lnv3
 #  baseFee: 0.01
 #  liquidityFeeRate: 0.1

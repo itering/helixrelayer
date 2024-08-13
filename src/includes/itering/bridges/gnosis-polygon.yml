@@ -12,7 +12,7 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
-    - symbol: dai->dai
+    - symbol: xdai->dai
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
@@ -31,7 +31,7 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
-    - symbol: dai->dai
+    - symbol: dai->xdai
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
