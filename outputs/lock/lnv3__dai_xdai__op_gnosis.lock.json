@@ -1,0 +1,18 @@
+{
+  "register": {
+    "bridge": "op->gnosis",
+    "symbol": "dai->xdai",
+    "type": "lnv3",
+    "baseFee": 0.01,
+    "liquidityFeeRate": 0.1,
+    "transferLimit": 2000,
+    "deposit": 100,
+    "approve": 10000000000000,
+    "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+    "sourceSafeWalletUrl": "https://safe-transaction-optimism.safe.global/api"
+  },
+  "hash": {
+    "origin": "100000000000000.01op->gnosis1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-optimism.safe.global/apidai->xdai2000lnv3",
+    "hash": "9dab3f07daff66560f56eb8cfc6b5b0dc70c01ef37527f8c29ac93b8f75fc13a"
+  }
+}
