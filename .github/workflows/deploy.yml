@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  HELIXBRIDGE_CLI_VERSION: sha-3f3c991
+  HELIXBRIDGE_CLI_VERSION: sha-4d9de32
 
 jobs:
   deploy:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Regiser
+      - name: Regitser
         run: |
           docker run -i --rm \
           --name helixbridge \
