@@ -243,6 +243,156 @@
   ],
   "bridges": [
     {
+      "direction": "arbitrum->avalanche",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 120,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "avalanche->arbitrum",
+      "feeLimit": 0.3,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 60,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "arbitrum->base",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 120,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        }
+      ]
+    },
+    {
+      "direction": "base->arbitrum",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        }
+      ]
+    },
+    {
+      "direction": "arbitrum->bsc",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 120,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "bsc->arbitrum",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
       "direction": "arbitrum->ethereum",
       "feeLimit": 100,
       "reorgThreshold": 100,
@@ -272,6 +422,130 @@
         {
           "symbol": "ring->ring",
           "swapRate": 1
+        }
+      ]
+    },
+    {
+      "direction": "arbitrum->gnosis",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 120,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->xdai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "gnosis->arbitrum",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "xdai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "arbitrum->op",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 120,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "op->arbitrum",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
         }
       ]
     },
@@ -410,6 +684,660 @@
       ]
     },
     {
+      "direction": "base->avalanche",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 60,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "avalanche->base",
+      "feeLimit": 0.3,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "bsc->avalanche",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "avalanche->bsc",
+      "feeLimit": 0.3,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 50,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "gnosis->avalanche",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 60,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "xdai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "avalanche->gnosis",
+      "feeLimit": 0.3,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->xdai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "op->avalanche",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 60,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "avalanche->op",
+      "feeLimit": 0.3,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "polygon->avalanche",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 60,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "avalanche->polygon",
+      "feeLimit": 0.3,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "scroll->avalanche",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 60,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "avalanche->scroll",
+      "feeLimit": 0.3,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "base->bsc",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "bsc->base",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 50,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "base->gnosis",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "gnosis->base",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "base->op",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        }
+      ]
+    },
+    {
+      "direction": "op->base",
+      "feeLimit": 0.01,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        }
+      ]
+    },
+    {
+      "direction": "base->polygon",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "polygon->base",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "base->scroll",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        }
+      ]
+    },
+    {
+      "direction": "scroll->base",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        }
+      ]
+    },
+    {
+      "direction": "bsc->gnosis",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "gnosis->bsc",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "bsc->op",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "op->bsc",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "bsc->polygon",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "polygon->bsc",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "bsc->scroll",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "scroll->bsc",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
       "direction": "darwinia-dvm->ethereum",
       "feeLimit": 100,
       "reorgThreshold": 10,
@@ -438,6 +1366,256 @@
         {
           "symbol": "ring->ring",
           "swapRate": 1
+        }
+      ]
+    },
+    {
+      "direction": "gnosis->op",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "xdai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "op->gnosis",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->xdai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "gnosis->polygon",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "xdai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "polygon->gnosis",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->xdai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "gnosis->scroll",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 20,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "scroll->gnosis",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "op->polygon",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "polygon->op",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "dai->dai",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "link->link",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 5
+        }
+      ]
+    },
+    {
+      "direction": "op->scroll",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 30,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
+        }
+      ]
+    },
+    {
+      "direction": "scroll->op",
+      "feeLimit": 0.1,
+      "reorgThreshold": 200,
+      "microReorgThreshold": 50,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "usdc->usdc",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 50
+        },
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "microThreshold": 0.01
         }
       ]
     },
