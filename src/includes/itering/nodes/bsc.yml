@@ -9,4 +9,7 @@ lendMarket:
       - symbol: usdt
         minRepay: 100
         minReserved: 0
+      - symbol: btc
+        minRepay: 0.0017
+        minReserved: 0
 
