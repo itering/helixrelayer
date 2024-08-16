@@ -6,6 +6,9 @@ lendMarket:
       - symbol: usdc
         autosupplyAmount: 1800
     tokens:
+      - symbol: usdt
+        minRepay: 100
+        minReserved: 0
       - symbol: dai
         minRepay: 100
         minReserved: 0
