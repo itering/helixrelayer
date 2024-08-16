@@ -7,6 +7,6 @@ lendMarket:
         autosupplyAmount: 1800
     tokens:
       - symbol: xdai
-        minRepay: 0.1
+        minRepay: 100
         minReserved: 0
 
