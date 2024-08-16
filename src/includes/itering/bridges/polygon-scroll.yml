@@ -1,7 +1,7 @@
 - direction: polygon->scroll
-  feeLimit: 100
-  reorgThreshold: 200
-  microReorgThreshold: 30
+  feeLimit: 0.01
+  reorgThreshold: 100
+  microReorgThreshold: 50
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-scroll.safe.global/api'
@@ -13,9 +13,9 @@
       withdrawLiquidityCountThreshold: 10
 
 - direction: scroll->polygon
-  feeLimit: 150
-  reorgThreshold: 200
-  microReorgThreshold: 30
+  feeLimit: 5
+  reorgThreshold: 13
+  microReorgThreshold: 6
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-polygon.safe.global/api'

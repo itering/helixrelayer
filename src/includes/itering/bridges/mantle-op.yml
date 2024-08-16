@@ -1,7 +1,7 @@
 - direction: mantle->op
-  feeLimit: 0.1
-  reorgThreshold: 200
-  microReorgThreshold: 20
+  feeLimit: 0.01
+  reorgThreshold: 20
+  microReorgThreshold: 8
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-optimism.safe.global/api'
@@ -14,9 +14,9 @@
       microThreshold: 50
 
 - direction: op->mantle
-  feeLimit: 0.1
-  reorgThreshold: 200
-  microReorgThreshold: 30
+  feeLimit: 5
+  reorgThreshold: 20
+  microReorgThreshold: 8
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://gateway.multisig.mantle.xyz/api'

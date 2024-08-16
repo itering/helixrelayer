@@ -1,5 +1,5 @@
 - direction: darwinia-dvm->ethereum
-  feeLimit: 100
+  feeLimit: 0.02
   reorgThreshold: 10
   bridgeType: lnv2-opposite
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
