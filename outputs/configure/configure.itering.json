@@ -38,6 +38,11 @@
               "symbol": "link",
               "minRepay": 10,
               "minReserved": 0
+            },
+            {
+              "symbol": "btc",
+              "minRepay": 0.0017,
+              "minReserved": 0
             }
           ]
         }
@@ -57,6 +62,11 @@
           ],
           "tokens": [
             {
+              "symbol": "usdt",
+              "minRepay": 100,
+              "minReserved": 0
+            },
+            {
               "symbol": "dai",
               "minRepay": 100,
               "minReserved": 0
@@ -64,6 +74,11 @@
             {
               "symbol": "link",
               "minRepay": 10,
+              "minReserved": 0
+            },
+            {
+              "symbol": "btc",
+              "minRepay": 0.0017,
               "minReserved": 0
             }
           ]
@@ -111,7 +126,18 @@
               "autosupplyAmount": 1800
             }
           ],
-          "tokens": []
+          "tokens": [
+            {
+              "symbol": "usdt",
+              "minRepay": 100,
+              "minReserved": 0
+            },
+            {
+              "symbol": "btc",
+              "minRepay": 0.0017,
+              "minReserved": 0
+            }
+          ]
         }
       ]
     },
@@ -183,6 +209,11 @@
               "symbol": "link",
               "minRepay": 10,
               "minReserved": 0
+            },
+            {
+              "symbol": "btc",
+              "minRepay": 0.0017,
+              "minReserved": 0
             }
           ]
         }
@@ -214,6 +245,11 @@
             {
               "symbol": "link",
               "minRepay": 10,
+              "minReserved": 0
+            },
+            {
+              "symbol": "btc",
+              "minRepay": 0.0017,
               "minReserved": 0
             }
           ]
