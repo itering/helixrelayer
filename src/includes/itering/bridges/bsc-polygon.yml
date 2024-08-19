@@ -12,6 +12,14 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
+#    - symbol: usdt->usdt
+#      swapRate: 1
+#      withdrawLiquidityCountThreshold: 10
+#      microThreshold: 50
+#    - symbol: btc->btc
+#      swapRate: 1
+#      withdrawLiquidityCountThreshold: 10
+#      microThreshold: 0.0009
 
 - direction: polygon->bsc
   feeLimit: 0.1
@@ -27,3 +35,11 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 50
+#    - symbol: usdt->usdt
+#      swapRate: 1
+#      withdrawLiquidityCountThreshold: 10
+#      microThreshold: 50
+#    - symbol: btc->btc
+#      swapRate: 1
+#      withdrawLiquidityCountThreshold: 10
+#      microThreshold: 0.0009

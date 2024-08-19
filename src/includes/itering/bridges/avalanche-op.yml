@@ -20,6 +20,10 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 5
+#    - symbol: btc->btc
+#      swapRate: 1
+#      withdrawLiquidityCountThreshold: 10
+#      microThreshold: 0.0009
 
 - direction: avalanche->op
   feeLimit: 0.3
@@ -43,3 +47,7 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 5
+#    - symbol: btc->btc
+#      swapRate: 1
+#      withdrawLiquidityCountThreshold: 10
+#      microThreshold: 0.0009
