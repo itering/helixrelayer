@@ -42,24 +42,24 @@
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
 
-#- bridge: bsc->arbitrum
-#  symbol: wbtc
-#  type: lnv3
-#  baseFee: 0.000002
-#  liquidityFeeRate: 0.1
-#  transferLimit: 0.034
-#  deposit: 0.0017
-#  approve: 10000000000000
-#  safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-#  sourceSafeWalletUrl: 'https://safe-transaction-bsc.safe.global/api'
-#
-#- bridge: arbitrum->bsc
-#  symbol: wbtc
-#  type: lnv3
-#  baseFee: 0.000002
-#  liquidityFeeRate: 0.1
-#  transferLimit: 0.034
-#  deposit: 0.0017
-#  approve: 10000000000000
-#  safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-#  sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
+- bridge: bsc->arbitrum
+  symbol: wbtc
+  type: lnv3
+  baseFee: 0.000002
+  liquidityFeeRate: 0.1
+  transferLimit: 0.034
+  deposit: 0.0017
+  approve: 10000000000000
+  safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
+  sourceSafeWalletUrl: 'https://safe-transaction-bsc.safe.global/api'
+
+- bridge: arbitrum->bsc
+  symbol: wbtc
+  type: lnv3
+  baseFee: 0.000002
+  liquidityFeeRate: 0.1
+  transferLimit: 0.034
+  deposit: 0.0017
+  approve: 10000000000000
+  safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
+  sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
