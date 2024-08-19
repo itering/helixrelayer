@@ -16,7 +16,7 @@
 #      swapRate: 1
 #      withdrawLiquidityCountThreshold: 10
 #      microThreshold: 50
-#    - symbol: btc->btc
+#    - symbol: wbtc->wbtc
 #      swapRate: 1
 #      withdrawLiquidityCountThreshold: 10
 #      microThreshold: 0.0009
@@ -39,7 +39,7 @@
 #      swapRate: 1
 #      withdrawLiquidityCountThreshold: 10
 #      microThreshold: 50
-#    - symbol: btc->btc
+#    - symbol: wbtc->wbtc
 #      swapRate: 1
 #      withdrawLiquidityCountThreshold: 10
 #      microThreshold: 0.0009

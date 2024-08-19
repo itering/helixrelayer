@@ -43,9 +43,9 @@
   sourceSafeWalletUrl: 'https://safe-transaction-avalanche.safe.global/api'
 
 #- bridge: bsc->avalanche
-#  symbol: btc
+#  symbol: wbtc
 #  type: lnv3
-#  baseFee: 0.1
+#  baseFee: 0.000002
 #  liquidityFeeRate: 0.1
 #  transferLimit: 0.034
 #  deposit: 0.0017
@@ -54,9 +54,9 @@
 #  sourceSafeWalletUrl: 'https://safe-transaction-bsc.safe.global/api'
 #
 #- bridge: avalanche->bsc
-#  symbol: btc
+#  symbol: wbtc
 #  type: lnv3
-#  baseFee: 0.1
+#  baseFee: 0.000002
 #  liquidityFeeRate: 0.1
 #  transferLimit: 0.034
 #  deposit: 0.0017

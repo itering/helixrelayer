@@ -87,9 +87,9 @@
   sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
 
 #- bridge: op->arbitrum
-#  symbol: btc
+#  symbol: wbtc
 #  type: lnv3
-#  baseFee: 0.1
+#  baseFee: 0.000002
 #  liquidityFeeRate: 0.1
 #  transferLimit: 0.034
 #  deposit: 0.0017
@@ -98,9 +98,9 @@
 #  sourceSafeWalletUrl: 'https://safe-transaction-optimism.safe.global/api'
 #
 #- bridge: arbitrum->op
-#  symbol: btc
+#  symbol: wbtc
 #  type: lnv3
-#  baseFee: 0.1
+#  baseFee: 0.000002
 #  liquidityFeeRate: 0.1
 #  transferLimit: 0.034
 #  deposit: 0.0017

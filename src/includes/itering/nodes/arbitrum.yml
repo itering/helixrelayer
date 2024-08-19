@@ -20,6 +20,6 @@ lendMarket:
       - symbol: link
         minRepay: 10
         minReserved: 0
-      - symbol: btc
+      - symbol: wbtc
         minRepay: 0.0017
         minReserved: 0
