@@ -20,10 +20,10 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 5
-#    - symbol: wbtc->wbtc
-#      swapRate: 1
-#      withdrawLiquidityCountThreshold: 10
-#      microThreshold: 0.0009
+    - symbol: wbtc->wbtc
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 0.0009
 
 - direction: avalanche->op
   feeLimit: 0.01
@@ -47,7 +47,7 @@
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
       microThreshold: 5
-#    - symbol: wbtc->wbtc
-#      swapRate: 1
-#      withdrawLiquidityCountThreshold: 10
-#      microThreshold: 0.0009
+    - symbol: wbtc->wbtc
+      swapRate: 1
+      withdrawLiquidityCountThreshold: 10
+      microThreshold: 0.0009
