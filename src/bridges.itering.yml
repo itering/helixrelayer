@@ -5,7 +5,7 @@ registers:
   - include: arbitrum-bsc.yml
   - include: arbitrum-ethereum.yml
   - include: arbitrum-gnosis.yml
-#  - include: arbitrum-mantle.yml
+  - include: arbitrum-mantle.yml
   - include: arbitrum-op.yml
   - include: arbitrum-polygon.yml
   - include: arbitrum-scroll.yml
