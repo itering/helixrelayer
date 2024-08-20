@@ -6,7 +6,7 @@ on:
 #      - main
 
 env:
-  HELIXBRIDGE_CLI_VERSION: sha-2f6ec67
+  HELIXBRIDGE_CLI_VERSION: sha-33f7a0b
 
 jobs:
   check:
@@ -28,7 +28,7 @@ jobs:
           -e FORCE_COLOR=1 \
           -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
-            register --verbose --datadir=/relayer --group=itering
+            register --verbose --write-lock --datadir=/relayer --group=itering
 
       - name: Check configure
         run: |

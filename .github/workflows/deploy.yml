@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  HELIXBRIDGE_CLI_VERSION: sha-2f6ec67
+  HELIXBRIDGE_CLI_VERSION: sha-33f7a0b
 
 jobs:
   deploy:
@@ -23,7 +23,7 @@ jobs:
           -e FORCE_COLOR=1 \
           -e SIGNER=${{ secrets.SIGNER }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
-            register --verbose --accept --datadir=/relayer --group=itering
+            register --verbose --accept --write-lock --datadir=/relayer --group=itering
 
       - name: Generate configure
         run: |
