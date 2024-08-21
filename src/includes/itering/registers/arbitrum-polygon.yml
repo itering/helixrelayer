@@ -67,7 +67,7 @@
 - bridge: polygon->arbitrum
   symbol: link
   type: lnv3
-  baseFee: 0.1
+  baseFee: 0.01
   liquidityFeeRate: 0.1
   transferLimit: 200
   deposit: 10
@@ -78,7 +78,7 @@
 - bridge: arbitrum->polygon
   symbol: link
   type: lnv3
-  baseFee: 0.1
+  baseFee: 0.01
   liquidityFeeRate: 0.1
   transferLimit: 200
   deposit: 10
