@@ -1,7 +1,7 @@
 - bridge: mantle->arbitrum
   symbol: usdc
   type: lnv3
-  baseFee: 0.1
+  baseFee: 0.01
   liquidityFeeRate: 0.1
   transferLimit: 2000
   deposit: 100
