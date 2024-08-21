@@ -3,7 +3,7 @@
     "bridge": "avalanche->op",
     "symbol": "link",
     "type": "lnv3",
-    "baseFee": 0.1,
+    "baseFee": 0.01,
     "liquidityFeeRate": 0.1,
     "transferLimit": 200,
     "deposit": 10,
@@ -12,7 +12,7 @@
     "sourceSafeWalletUrl": "https://safe-transaction-avalanche.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1avalanche->op100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-avalanche.safe.global/apilink200lnv3",
-    "hash": "817b237037c2c18063291b1e9bfa5e1a327c5d61575808e220d8a5be1c907c94"
+    "origin": "100000000000000.01avalanche->op100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-avalanche.safe.global/apilink200lnv3",
+    "hash": "f2dc0894d1f708ccda1a3f1f3e0e33e2e3321d4d2cc8b367d78f505d14bb00d7"
   }
 }

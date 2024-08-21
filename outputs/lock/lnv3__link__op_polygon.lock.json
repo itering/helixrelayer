@@ -3,7 +3,7 @@
     "bridge": "op->polygon",
     "symbol": "link",
     "type": "lnv3",
-    "baseFee": 0.1,
+    "baseFee": 0.01,
     "liquidityFeeRate": 0.1,
     "transferLimit": 200,
     "deposit": 10,
@@ -12,7 +12,7 @@
     "sourceSafeWalletUrl": "https://safe-transaction-optimism.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1op->polygon100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-optimism.safe.global/apilink200lnv3",
-    "hash": "200233eea3c70d8e3b7062a71fbf14038e6f9bdabdf2d8aafe5cde5c28353bba"
+    "origin": "100000000000000.01op->polygon100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-optimism.safe.global/apilink200lnv3",
+    "hash": "eb2a0431cde2bedd9a1f7d934d69b2405ce0104174653ce024c9fd258c72e940"
   }
 }

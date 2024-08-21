@@ -3,7 +3,7 @@
     "bridge": "polygon->op",
     "symbol": "link",
     "type": "lnv3",
-    "baseFee": 0.1,
+    "baseFee": 0.01,
     "liquidityFeeRate": 0.1,
     "transferLimit": 200,
     "deposit": 10,
@@ -12,7 +12,7 @@
     "sourceSafeWalletUrl": "https://safe-transaction-polygon.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1polygon->op100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-polygon.safe.global/apilink200lnv3",
-    "hash": "8ae8a0b394f88a6e39a5c36590b135c91a46297dd60083886453f81a1753e135"
+    "origin": "100000000000000.01polygon->op100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-polygon.safe.global/apilink200lnv3",
+    "hash": "d7920ea53d83a4ad7f88390e8715749203246d04f64a35c8a560ef1a3a5905a6"
   }
 }

@@ -3,7 +3,7 @@
     "bridge": "arbitrum->polygon",
     "symbol": "link",
     "type": "lnv3",
-    "baseFee": 0.1,
+    "baseFee": 0.01,
     "liquidityFeeRate": 0.1,
     "transferLimit": 200,
     "deposit": 10,
@@ -12,7 +12,7 @@
     "sourceSafeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1arbitrum->polygon100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-arbitrum.safe.global/apilink200lnv3",
-    "hash": "dbc003eee75458eff0fa7285e7a4ccfb0274097a0b78061c436980f6abe72c7f"
+    "origin": "100000000000000.01arbitrum->polygon100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-arbitrum.safe.global/apilink200lnv3",
+    "hash": "473072a3712e57ea69d6d737da17d9cdcac8885e7ef0c629a08f850805e706c2"
   }
 }

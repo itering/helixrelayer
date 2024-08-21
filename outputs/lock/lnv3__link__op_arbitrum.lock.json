@@ -3,7 +3,7 @@
     "bridge": "op->arbitrum",
     "symbol": "link",
     "type": "lnv3",
-    "baseFee": 0.1,
+    "baseFee": 0.01,
     "liquidityFeeRate": 0.1,
     "transferLimit": 200,
     "deposit": 10,
@@ -12,7 +12,7 @@
     "sourceSafeWalletUrl": "https://safe-transaction-optimism.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1op->arbitrum100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-optimism.safe.global/apilink200lnv3",
-    "hash": "5dbba477c1e2f6a555fb89c8fcdba6e616d68baf42fd2e6058d64ef6c404d829"
+    "origin": "100000000000000.01op->arbitrum100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-optimism.safe.global/apilink200lnv3",
+    "hash": "10aa30cfd85661e78f57ad413c58f8a69f73301850b7a2325f32bf23f39211e3"
   }
 }
