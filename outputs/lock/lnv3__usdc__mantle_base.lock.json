@@ -1,0 +1,18 @@
+{
+  "register": {
+    "bridge": "mantle->base",
+    "symbol": "usdc",
+    "type": "lnv3",
+    "baseFee": 0.1,
+    "liquidityFeeRate": 0.1,
+    "transferLimit": 2000,
+    "deposit": 100,
+    "approve": 10000000000000,
+    "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+    "sourceSafeWalletUrl": "https://gateway.multisig.mantle.xyz"
+  },
+  "hash": {
+    "origin": "100000000000000.1mantle->base1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://gateway.multisig.mantle.xyzusdc2000lnv3",
+    "hash": "46c368a7eb7cfc289191bc80876becc5bb5f52c0f6550c137f5fef599cff190f"
+  }
+}
