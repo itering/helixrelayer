@@ -11,6 +11,7 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 1000
       microThreshold: 50
 
 - direction: mantle->base
@@ -26,4 +27,5 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 1000
       microThreshold: 50

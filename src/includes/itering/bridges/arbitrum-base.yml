@@ -11,10 +11,12 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 1000
       microThreshold: 50
     - symbol: eth->eth
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 0.1
       microThreshold: 0.01
 
 - direction: base->arbitrum
@@ -30,8 +32,10 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 1000
       microThreshold: 50
     - symbol: eth->eth
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 0.1
       microThreshold: 0.01
