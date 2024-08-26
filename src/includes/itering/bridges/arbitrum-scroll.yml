@@ -41,7 +41,7 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 100
+      withdrawLiquidityAmountThreshold: 500
     - symbol: eth->eth
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
