@@ -8,16 +8,19 @@
   safeWalletRole: <safe_wallet_role>
   encryptedPrivateKey: <encrypted_private_key>
   tokens:
-    - symbol: usdt->usdt
-      swapRate: 2300
-      withdrawLiquidityCountThreshold: 10
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 1000
+    - symbol: usdt->usdt
+      swapRate: 2300
+      withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 100
       microThreshold: 50
     - symbol: eth->eth
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 0.1
       microThreshold: 0.01
 
 - direction: scroll->arbitrum
@@ -30,14 +33,17 @@
   safeWalletRole: <safe_wallet_role>
   encryptedPrivateKey: <encrypted_private_key>
   tokens:
-    - symbol: usdt->usdt
-      swapRate: 2300
-      withdrawLiquidityCountThreshold: 10
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 1000
       microThreshold: 50
+    - symbol: usdt->usdt
+      swapRate: 2300
+      withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 100
     - symbol: eth->eth
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 0.1
       microThreshold: 0.01

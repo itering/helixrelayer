@@ -11,18 +11,22 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 1000
       microThreshold: 50
     - symbol: usdt->usdt
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 100
       microThreshold: 50
     - symbol: dai->dai
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 100
       microThreshold: 50
     - symbol: link->link
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 10
       microThreshold: 5
 
 - direction: avalanche->polygon
@@ -38,17 +42,21 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 1000
       microThreshold: 50
     - symbol: usdt->usdt
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 100
       microThreshold: 50
     - symbol: dai->dai
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 100
       microThreshold: 50
     - symbol: link->link
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityAmountThreshold: 10
       microThreshold: 5
 
