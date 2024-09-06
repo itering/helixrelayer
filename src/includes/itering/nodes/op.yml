@@ -6,7 +6,7 @@ lendMarket:
       - symbol: eth
         autosupplyAmount: 0.9
       - symbol: usdc
-        autosupplyAmount: 1800
+        autosupplyAmount: 4800
     tokens:
       - symbol: eth
         minRepay: 0.1
