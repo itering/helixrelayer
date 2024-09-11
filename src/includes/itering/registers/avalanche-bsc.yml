@@ -25,7 +25,7 @@
   type: lnv3
   baseFee: 0.1
   liquidityFeeRate: 0.1
-  transferLimit: 2000
+  transferLimit: 500
   deposit: 100
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
@@ -36,7 +36,7 @@
   type: lnv3
   baseFee: 0.1
   liquidityFeeRate: 0.1
-  transferLimit: 2000
+  transferLimit: 500
   deposit: 100
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
