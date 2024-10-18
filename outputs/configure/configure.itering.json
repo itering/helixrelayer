@@ -255,6 +255,7 @@
     },
     {
       "name": "scroll",
+      "relayGasLimit": 500000,
       "lendMarket": [
         {
           "protocol": "aave",
