@@ -87,6 +87,7 @@
     },
     {
       "name": "base",
+      "relayGasLimit": 500000,
       "lendMarket": [
         {
           "protocol": "aave",
@@ -177,6 +178,7 @@
     },
     {
       "name": "op",
+      "relayGasLimit": 500000,
       "lendMarket": [
         {
           "protocol": "aave",
