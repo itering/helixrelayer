@@ -220,6 +220,7 @@
     },
     {
       "name": "polygon",
+      "relayGasLimit": 500000,
       "lendMarket": [
         {
           "protocol": "aave",
