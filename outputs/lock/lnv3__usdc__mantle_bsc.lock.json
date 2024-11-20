@@ -9,10 +9,10 @@
     "deposit": 100,
     "approve": 10000000000000,
     "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
-    "sourceSafeWalletUrl": "https://gateway.multisig.mantle.xyz"
+    "sourceSafeWalletUrl": "https://safe-transaction-mantle.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1mantle->bsc1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://gateway.multisig.mantle.xyzusdc2000lnv3",
-    "hash": "8bd57c86886386a7a3db650bca769284322b51c6b4fc6d3e1e66e014db6a2860"
+    "origin": "100000000000000.1mantle->bsc1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-mantle.safe.global/apiusdc2000lnv3",
+    "hash": "c9bd3f52dc6f594f102179498d9d3b4de1fd2a57031cb152347cd05932699636"
   }
 }
