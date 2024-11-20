@@ -12,7 +12,7 @@ registers:
   - include: avalanche-base.yml
   - include: avalanche-bsc.yml
   - include: avalanche-gnosis.yml
-#  - include: avalanche-mantle.yml
+  - include: avalanche-mantle.yml
   - include: avalanche-op.yml
   - include: avalanche-polygon.yml
   - include: avalanche-scroll.yml
