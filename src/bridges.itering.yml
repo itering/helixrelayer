@@ -23,7 +23,7 @@ registers:
   - include: base-polygon.yml
   - include: base-scroll.yml
   - include: bsc-gnosis.yml
-#  - include: bsc-mantle.yml
+  - include: bsc-mantle.yml
   - include: bsc-op.yml
   - include: bsc-polygon.yml
   - include: bsc-scroll.yml
