@@ -52,7 +52,7 @@ configure:
     - include: darwinia.yml
     - include: ethereum.yml
     - include: gnosis.yml
-    # - include: mantle.yml
+    - include: mantle.yml
     - include: moonbeam.yml
     - include: op.yml
     - include: polygon.yml
@@ -64,7 +64,7 @@ configure:
     - include: arbitrum-bsc.yml
     - include: arbitrum-ethereum.yml
     - include: arbitrum-gnosis.yml
-    # - include: arbitrum-mantle.yml
+    - include: arbitrum-mantle.yml
     - include: arbitrum-op.yml
     - include: arbitrum-polygon.yml
     - include: arbitrum-scroll.yml
