@@ -6,6 +6,7 @@ registers:
   - include: arbitrum-ethereum.yml
   - include: arbitrum-gnosis.yml
   - include: arbitrum-mantle.yml
+  - include: arbitrum-morph.yml
   - include: arbitrum-op.yml
   - include: arbitrum-polygon.yml
   - include: arbitrum-scroll.yml
@@ -65,6 +66,7 @@ configure:
     - include: arbitrum-ethereum.yml
     - include: arbitrum-gnosis.yml
     - include: arbitrum-mantle.yml
+    #- include: arbitrum-morph.yml
     - include: arbitrum-op.yml
     - include: arbitrum-polygon.yml
     - include: arbitrum-scroll.yml
