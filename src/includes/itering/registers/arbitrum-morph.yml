@@ -7,7 +7,7 @@
   deposit: 0.06
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
-  sourceSafeWalletUrl: 'https://gateway.safe.morphl2.io/v1/chains/2818'
+  sourceSafeWalletUrl: 'https://transaction.safe.morphl2.io/api'
 
 # - bridge: arbitrum->morph
 #   symbol: eth
