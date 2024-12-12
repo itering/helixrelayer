@@ -55,6 +55,7 @@ configure:
     - include: gnosis.yml
     - include: mantle.yml
     - include: moonbeam.yml
+    - include: morph.yml
     - include: op.yml
     - include: polygon.yml
     - include: scroll.yml
@@ -66,7 +67,7 @@ configure:
     - include: arbitrum-ethereum.yml
     - include: arbitrum-gnosis.yml
     - include: arbitrum-mantle.yml
-    #- include: arbitrum-morph.yml
+    - include: arbitrum-morph.yml
     - include: arbitrum-op.yml
     - include: arbitrum-polygon.yml
     - include: arbitrum-scroll.yml
