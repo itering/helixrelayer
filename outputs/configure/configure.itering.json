@@ -180,6 +180,9 @@
       "name": "moonbeam"
     },
     {
+      "name": "morph"
+    },
+    {
       "name": "op",
       "relayGasLimit": 500000,
       "lendMarket": [
@@ -630,6 +633,46 @@
           "withdrawLiquidityCountThreshold": 10,
           "withdrawLiquidityAmountThreshold": 1000,
           "microThreshold": 50
+        }
+      ]
+    },
+    {
+      "direction": "arbitrum->morph",
+      "feeLimit": 0.01,
+      "reorgThreshold": 20,
+      "microReorgThreshold": 8,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://transaction.safe.morphl2.io/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "withdrawLiquidityAmountThreshold": 0.1,
+          "microThreshold": 0.01
+        }
+      ]
+    },
+    {
+      "direction": "morph->arbitrum",
+      "feeLimit": 0.01,
+      "reorgThreshold": 20,
+      "microReorgThreshold": 8,
+      "bridgeType": "lnv3",
+      "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
+      "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletRole": "<safe_wallet_role>",
+      "encryptedPrivateKey": "<encrypted_private_key>",
+      "tokens": [
+        {
+          "symbol": "eth->eth",
+          "swapRate": 1,
+          "withdrawLiquidityCountThreshold": 10,
+          "withdrawLiquidityAmountThreshold": 0.1,
+          "microThreshold": 0.01
         }
       ]
     },
