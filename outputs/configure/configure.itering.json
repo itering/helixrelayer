@@ -299,6 +299,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -347,6 +348,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -395,6 +397,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -422,6 +425,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -449,6 +453,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -483,6 +488,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -517,6 +523,7 @@
       "bridgeType": "lnv2-opposite",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mainnet.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -533,6 +540,7 @@
       "bridgeType": "lnv2-default",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -550,6 +558,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -577,6 +586,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -604,6 +614,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mantle.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -624,6 +635,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -644,6 +656,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://transaction.safe.morphl2.io/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -664,6 +677,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -684,6 +698,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -732,6 +747,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -780,6 +796,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -828,6 +845,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -876,6 +894,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -909,6 +928,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-arbitrum.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -942,6 +962,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -962,6 +983,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -982,6 +1004,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1016,6 +1039,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1050,6 +1074,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1077,6 +1102,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1104,6 +1130,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mantle.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1124,6 +1151,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1144,6 +1172,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1185,6 +1214,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1226,6 +1256,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1267,6 +1298,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1308,6 +1340,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-avalanche.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1328,6 +1361,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1348,6 +1382,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1368,6 +1403,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1388,6 +1424,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1408,6 +1445,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1428,6 +1466,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mantle.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1448,6 +1487,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1468,6 +1508,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1495,6 +1536,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1522,6 +1564,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1542,6 +1585,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1562,6 +1606,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1589,6 +1634,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-base.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1616,6 +1662,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1636,6 +1683,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1656,6 +1704,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mantle.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1676,6 +1725,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1696,6 +1746,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1723,6 +1774,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1750,6 +1802,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1784,6 +1837,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1818,6 +1872,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1838,6 +1893,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-bsc.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1857,6 +1913,7 @@
       "bridgeType": "lnv2-opposite",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mainnet.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1873,6 +1930,7 @@
       "bridgeType": "lnv2-default",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://dsafe.dcdao.box/txs/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1890,6 +1948,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mantle.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1910,6 +1969,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1930,6 +1990,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1957,6 +2018,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -1984,6 +2046,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2011,6 +2074,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2038,6 +2102,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2058,6 +2123,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-gnosis-chain.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2078,6 +2144,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2098,6 +2165,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mantle.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2118,6 +2186,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2138,6 +2207,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mantle.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2158,6 +2228,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2178,6 +2249,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-mantle.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2198,6 +2270,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2239,6 +2312,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2280,6 +2354,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2307,6 +2382,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-optimism.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2334,6 +2410,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-scroll.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
@@ -2354,6 +2431,7 @@
       "bridgeType": "lnv3",
       "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
       "safeWalletUrl": "https://safe-transaction-polygon.safe.global/api",
+      "safeWalletType": "apollo",
       "safeWalletRole": "<safe_wallet_role>",
       "encryptedPrivateKey": "<encrypted_private_key>",
       "tokens": [
