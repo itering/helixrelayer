@@ -1,5 +1,5 @@
 {
-  "indexer": "https://apollo.helix.box/graphql",
+  "indexer": "https://apollo.helixbridge.app/graphql",
   "relayGasLimit": 600000,
   "rpcnodes": [
     {
