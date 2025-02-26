@@ -5,6 +5,7 @@
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-scroll.safe.global/api'
+  safeWalletType: apollo
   safeWalletRole: <safe_wallet_role>
   encryptedPrivateKey: <encrypted_private_key>
   tokens:
@@ -26,6 +27,7 @@
   bridgeType: lnv3
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   safeWalletUrl: 'https://safe-transaction-optimism.safe.global/api'
+  safeWalletType: apollo
   safeWalletRole: <safe_wallet_role>
   encryptedPrivateKey: <encrypted_private_key>
   tokens:
