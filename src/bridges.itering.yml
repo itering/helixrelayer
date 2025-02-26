@@ -41,7 +41,7 @@ registers:
   - include: polygon-scroll.yml
 
 configure:
-  indexer: https://apollo.helixbridge.app/graphql
+  indexer: https://apollo.helix.box/graphql
   relayGasLimit: 600000
   rpcnodes:
     - include: arbitrum.yml
