@@ -1,12 +1,12 @@
 name: gnosis
-lendMarket:
-  - protocol: aave
-    healthFactorLimit: 3
-    collaterals:
-      - symbol: usdc
-        autosupplyAmount: 4800
-    tokens:
-      - symbol: xdai
-        minRepay: 100
-        minReserved: 0
+# lendMarket:
+#   - protocol: aave
+#     healthFactorLimit: 3
+#     collaterals:
+#       - symbol: usdc
+#         autosupplyAmount: 4800
+#     tokens:
+#       - symbol: xdai
+#         minRepay: 100
+#         minReserved: 0
 

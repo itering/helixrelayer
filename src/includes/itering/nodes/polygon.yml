@@ -1,22 +1,22 @@
 name: polygon
 relayGasLimit: 500000
-lendMarket:
-  - protocol: aave
-    healthFactorLimit: 3
-    collaterals:
-      - symbol: usdc
-        autosupplyAmount: 4800
-    tokens:
-      - symbol: usdt
-        minRepay: 100
-        minReserved: 0
-      - symbol: dai
-        minRepay: 100
-        minReserved: 0
-      - symbol: link
-        minRepay: 10
-        minReserved: 0
-      - symbol: wbtc
-        minRepay: 0.0017
-        minReserved: 0
+# lendMarket:
+#   - protocol: aave
+#     healthFactorLimit: 3
+#     collaterals:
+#       - symbol: usdc
+#         autosupplyAmount: 4800
+#     tokens:
+#       - symbol: usdt
+#         minRepay: 100
+#         minReserved: 0
+#       - symbol: dai
+#         minRepay: 100
+#         minReserved: 0
+#       - symbol: link
+#         minRepay: 10
+#         minReserved: 0
+#       - symbol: wbtc
+#         minRepay: 0.0017
+#         minReserved: 0
 

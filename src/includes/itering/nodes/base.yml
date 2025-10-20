@@ -1,14 +1,14 @@
 name: base
 relayGasLimit: 500000
-lendMarket:
-  - protocol: aave
-    healthFactorLimit: 3
-    collaterals:
-      - symbol: eth
-        autosupplyAmount: 0.9
-      - symbol: usdc
-        autosupplyAmount: 4800
-    tokens:
-      - symbol: eth
-        minRepay: 0.1
-        minReserved: 0
+# lendMarket:
+#   - protocol: aave
+#     healthFactorLimit: 3
+#     collaterals:
+#       - symbol: eth
+#         autosupplyAmount: 0.9
+#       - symbol: usdc
+#         autosupplyAmount: 4800
+#     tokens:
+#       - symbol: eth
+#         minRepay: 0.1
+#         minReserved: 0
