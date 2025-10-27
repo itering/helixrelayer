@@ -167,14 +167,14 @@
           "symbol": "usdc->usdc",
           "swapRate": 1,
           "withdrawLiquidityCountThreshold": 10,
-          "withdrawLiquidityAmountThreshold": 1000,
+          "withdrawLiquidityAmountThreshold": 1,
           "microThreshold": 50
         },
         {
           "symbol": "eth->eth",
           "swapRate": 1,
           "withdrawLiquidityCountThreshold": 10,
-          "withdrawLiquidityAmountThreshold": 0.1,
+          "withdrawLiquidityAmountThreshold": 0.000001,
           "microThreshold": 0.01
         }
       ]
@@ -195,14 +195,14 @@
           "symbol": "usdc->usdc",
           "swapRate": 1,
           "withdrawLiquidityCountThreshold": 10,
-          "withdrawLiquidityAmountThreshold": 1000,
+          "withdrawLiquidityAmountThreshold": 1,
           "microThreshold": 50
         },
         {
           "symbol": "eth->eth",
           "swapRate": 1,
           "withdrawLiquidityCountThreshold": 10,
-          "withdrawLiquidityAmountThreshold": 0.1,
+          "withdrawLiquidityAmountThreshold": 0.000001,
           "microThreshold": 0.01
         }
       ]
