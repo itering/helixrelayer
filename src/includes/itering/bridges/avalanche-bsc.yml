@@ -12,17 +12,17 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1000
+      withdrawLiquidityAmountThreshold: 1
       microThreshold: 50
     - symbol: usdt->usdt
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 100
+      withdrawLiquidityAmountThreshold: 1
       microThreshold: 50
     - symbol: wbtc->wbtc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 0.0017
+      withdrawLiquidityAmountThreshold: 0.0000017
       microThreshold: 0.0009
 
 - direction: avalanche->bsc
@@ -39,15 +39,15 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1000
+      withdrawLiquidityAmountThreshold: 1
       microThreshold: 50
     - symbol: usdt->usdt
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 100
+      withdrawLiquidityAmountThreshold: 1
       microThreshold: 50
     - symbol: wbtc->wbtc
       swapRate: 1
       withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 0.0017
+      withdrawLiquidityAmountThreshold: 0.00000017
       microThreshold: 0.0009
