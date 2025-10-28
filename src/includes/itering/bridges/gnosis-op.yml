@@ -11,13 +11,13 @@
   tokens:
     - symbol: usdc->usdc
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
     - symbol: xdai->dai
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
 
 
@@ -34,12 +34,12 @@
   tokens:
     - symbol: usdc->usdc
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
     - symbol: dai->xdai
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
 

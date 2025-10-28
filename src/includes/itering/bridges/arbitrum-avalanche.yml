@@ -11,27 +11,27 @@
   tokens:
     - symbol: usdc->usdc
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
     - symbol: usdt->usdt
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
     - symbol: dai->dai
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
     - symbol: link->link
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityCountThreshold: 1
       withdrawLiquidityAmountThreshold: 0.5
       microThreshold: 5
     - symbol: wbtc->wbtc
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityCountThreshold: 1
       withdrawLiquidityAmountThreshold: 0.000017
       microThreshold: 0.0009
 
@@ -48,26 +48,26 @@
   tokens:
     - symbol: usdc->usdc
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
     - symbol: usdt->usdt
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
     - symbol: dai->dai
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
     - symbol: link->link
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityCountThreshold: 1
       withdrawLiquidityAmountThreshold: 0.5
       microThreshold: 5
     - symbol: wbtc->wbtc
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityCountThreshold: 1
       withdrawLiquidityAmountThreshold: 0.000017
       microThreshold: 0.0009

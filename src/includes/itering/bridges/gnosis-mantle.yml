@@ -11,8 +11,8 @@
   tokens:
     - symbol: usdc->usdc
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50
 
 - direction: mantle->gnosis
@@ -28,6 +28,6 @@
   tokens:
     - symbol: usdc->usdc
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
-      withdrawLiquidityAmountThreshold: 1
+      withdrawLiquidityCountThreshold: 1
+      withdrawLiquidityAmountThreshold: 0.0001
       microThreshold: 50

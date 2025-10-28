@@ -70,7 +70,7 @@ configure:
       tokens:
         - symbol: usdc->usdc
           swapRate: 2000
-          withdrawLiquidityCountThreshold: 10
+          withdrawLiquidityCountThreshold: 1
 
     - direction: sepolia->arbitrum-sepolia
       feeLimit: 100
@@ -79,6 +79,6 @@ configure:
       tokens:
         - symbol: usdc->usdc
           swapRate: 2300
-          withdrawLiquidityCountThreshold: 10
+          withdrawLiquidityCountThreshold: 1
 
 

@@ -11,7 +11,7 @@
   tokens:
     - symbol: eth->eth
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityCountThreshold: 1
       withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 0.01
 
@@ -28,6 +28,6 @@
   tokens:
     - symbol: eth->eth
       swapRate: 1
-      withdrawLiquidityCountThreshold: 10
+      withdrawLiquidityCountThreshold: 1
       withdrawLiquidityAmountThreshold: 0.00001
       microThreshold: 0.01
