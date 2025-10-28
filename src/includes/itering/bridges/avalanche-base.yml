@@ -12,7 +12,7 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 1
-      withdrawLiquidityAmountThreshold: 0.0001
+      withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 50
 
 - direction: avalanche->base
@@ -29,5 +29,5 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 1
-      withdrawLiquidityAmountThreshold: 0.0001
+      withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 50

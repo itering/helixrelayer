@@ -12,7 +12,7 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 1
-      withdrawLiquidityAmountThreshold: 0.0001
+      withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 50
 
 - direction: scroll->polygon
@@ -29,5 +29,5 @@
     - symbol: usdt->usdt
       swapRate: 2300
       withdrawLiquidityCountThreshold: 1
-      withdrawLiquidityAmountThreshold: 0.0001
+      withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 50

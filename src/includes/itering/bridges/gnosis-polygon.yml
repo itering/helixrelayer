@@ -12,12 +12,12 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 1
-      withdrawLiquidityAmountThreshold: 0.0001
+      withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 50
     - symbol: xdai->dai
       swapRate: 1
       withdrawLiquidityCountThreshold: 1
-      withdrawLiquidityAmountThreshold: 0.0001
+      withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 50
 
 - direction: polygon->gnosis
@@ -34,10 +34,10 @@
     - symbol: usdc->usdc
       swapRate: 1
       withdrawLiquidityCountThreshold: 1
-      withdrawLiquidityAmountThreshold: 0.0001
+      withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 50
     - symbol: dai->xdai
       swapRate: 1
       withdrawLiquidityCountThreshold: 1
-      withdrawLiquidityAmountThreshold: 0.0001
+      withdrawLiquidityAmountThreshold: 0.000001
       microThreshold: 50
