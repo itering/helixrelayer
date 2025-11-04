@@ -22,6 +22,7 @@ jobs:
           -v $PWD:/relayer \
           -e FORCE_COLOR=1 \
           -e SIGNER=${{ secrets.SIGNER }} \
+          -e ANKR_KEY=${{ secrets.ANKR_KEY }} \
           ghcr.io/helix-bridge/helixbridge-cli:${HELIXBRIDGE_CLI_VERSION} \
             register --verbose --accept --write-lock --datadir=/relayer --group=itering
 
