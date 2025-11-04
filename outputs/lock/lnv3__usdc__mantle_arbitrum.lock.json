@@ -6,13 +6,13 @@
     "baseFee": 0.1,
     "liquidityFeeRate": 0.1,
     "transferLimit": 2000,
-    "deposit": 100,
+    "deposit": 0,
     "approve": 10000000000000,
     "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
     "sourceSafeWalletUrl": "https://safe-transaction-mantle.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1mantle->arbitrum1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-mantle.safe.global/apiusdc2000lnv3",
-    "hash": "637b08c863e759e9ab84e0da958eaa7b38ae0ad28a41036388c9c8573ab57cdd"
+    "origin": "100000000000000.1mantle->arbitrum00.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-mantle.safe.global/apiusdc2000lnv3",
+    "hash": "66a5b6f1ed4907f8c73937bcf61c7e2742c6e0a49404ffe06202405ae64a7ab5"
   }
 }
