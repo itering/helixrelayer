@@ -6,13 +6,13 @@
     "baseFee": 0.1,
     "liquidityFeeRate": 0.1,
     "transferLimit": 2000,
-    "deposit": 100,
+    "deposit": 0,
     "approve": 10000000000000,
     "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
     "sourceSafeWalletUrl": "https://safe-transaction-scroll.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.1scroll->bsc1000.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-scroll.safe.global/apiusdc2000lnv3",
-    "hash": "3e225f66130e09c5b90a6732a6aa7892c59cc8c91070d77c29bd0d1b6ae68a1d"
+    "origin": "100000000000000.1scroll->bsc00.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-scroll.safe.global/apiusdc2000lnv3",
+    "hash": "7abeab346451cd6c0facd7a5e0e2d9abc6bd1a23e45a19f90a215589a6a2fa3c"
   }
 }
