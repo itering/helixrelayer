@@ -6,13 +6,13 @@
     "baseFee": 0.01,
     "liquidityFeeRate": 0.1,
     "transferLimit": 200,
-    "deposit": 10,
+    "deposit": 0,
     "approve": 10000000000000,
     "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
     "sourceSafeWalletUrl": "https://safe-transaction-optimism.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.01op->polygon100.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-optimism.safe.global/apilink200lnv3",
-    "hash": "eb2a0431cde2bedd9a1f7d934d69b2405ce0104174653ce024c9fd258c72e940"
+    "origin": "100000000000000.01op->polygon00.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-optimism.safe.global/apilink200lnv3",
+    "hash": "ddefdf692b5ce858027c2fb35ac94db0d8e3a0a00646a54f6c9755cd1eaa6286"
   }
 }
