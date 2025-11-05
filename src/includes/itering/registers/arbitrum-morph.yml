@@ -4,7 +4,7 @@
   baseFee: 0
   liquidityFeeRate: 0.1
   transferLimit: 0.1
-  deposit: 0.06
+  deposit: 0
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://transaction.safe.morphl2.io/api'
