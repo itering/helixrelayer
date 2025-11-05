@@ -4,7 +4,7 @@
   baseFee: 0.1
   liquidityFeeRate: 0.1
   transferLimit: 500
-  deposit: 30
+  deposit: 0
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
@@ -15,7 +15,7 @@
   baseFee: 0.1
   liquidityFeeRate: 0.1
   transferLimit: 500
-  deposit: 30
+  deposit: 0
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://safe-transaction-scroll.safe.global/api'
@@ -26,7 +26,7 @@
   baseFee: 0.1
   liquidityFeeRate: 0.1
   transferLimit: 2000
-  deposit: 30
+  deposit: 0
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
@@ -37,7 +37,7 @@
   baseFee: 0.1
   liquidityFeeRate: 0.1
   transferLimit: 2000
-  deposit: 30
+  deposit: 0
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://safe-transaction-scroll.safe.global/api'
@@ -48,7 +48,7 @@
   baseFee: 0.0001
   liquidityFeeRate: 0.1
   transferLimit: 0.4
-  deposit: 0.06
+  deposit: 0
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://safe-transaction-scroll.safe.global/api'
@@ -59,7 +59,7 @@
   baseFee: 0.0001
   liquidityFeeRate: 0.1
   transferLimit: 0.4
-  deposit: 0.06
+  deposit: 0
   approve: 10000000000000
   safeWalletAddress: '0x000000000Bb6a011dB294ce3F3423f00EAc4959e'
   sourceSafeWalletUrl: 'https://safe-transaction-arbitrum.safe.global/api'
