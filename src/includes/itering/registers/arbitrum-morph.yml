@@ -1,7 +1,7 @@
 - bridge: morph->arbitrum
   symbol: eth
   type: lnv3
-  baseFee: 0.0001
+  baseFee: 0
   liquidityFeeRate: 0.1
   transferLimit: 0.1
   deposit: 0.06
