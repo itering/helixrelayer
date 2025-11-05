@@ -6,13 +6,13 @@
     "baseFee": 0.000002,
     "liquidityFeeRate": 0.1,
     "transferLimit": 0.034,
-    "deposit": 0.0017,
+    "deposit": 0,
     "approve": 10000000000000,
     "safeWalletAddress": "0x000000000Bb6a011dB294ce3F3423f00EAc4959e",
     "sourceSafeWalletUrl": "https://safe-transaction-polygon.safe.global/api"
   },
   "hash": {
-    "origin": "100000000000000.000002polygon->avalanche0.00170.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-polygon.safe.global/apiwbtc0.034lnv3",
-    "hash": "4fe7a196b3de474cb84c3cfb664def691d54bcd245d76878c702e9519b714b37"
+    "origin": "100000000000000.000002polygon->avalanche00.10x000000000bb6a011db294ce3f3423f00eac4959ehttps://safe-transaction-polygon.safe.global/apiwbtc0.034lnv3",
+    "hash": "3fd005610f1d194b6150512e0a0e10347f3058dff4bc3d52273e18609d7953a7"
   }
 }
